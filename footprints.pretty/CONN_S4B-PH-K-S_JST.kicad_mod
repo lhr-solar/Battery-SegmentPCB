@@ -37,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -49,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -61,6 +63,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -262,7 +265,7 @@
 		(remove_unused_layers no)
 		(uuid "14131a45-8f2c-4d44-9341-c5c7ae6ad2dd")
 	)
-	(model "${KIPRJMOD}/S4B-PH-K-S_LF__SN_.stp"
+	(model "C:/Users/Okafo/LHR/Battery-SegmentPCB/3d/S4B-PH-K-S.stp"
 		(offset
 			(xyz 0 0 0)
 		)
