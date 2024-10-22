@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "92171ed8-cf4a-4d72-a2ea-ec84231c0ff7")
+	(uuid "47d58cef-09c3-4226-a448-16f83d0c12fa")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x04"
@@ -547,517 +547,506 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 72.39) (xy 36.83 72.39)
+			(xy 170.18 93.98) (xy 175.26 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "00631bde-1409-4263-b0dd-9cad400cbe0b")
+		(uuid "0fa74fc6-abd2-4352-bacc-72892fec7f06")
 	)
 	(wire
 		(pts
-			(xy 31.75 111.76) (xy 36.83 111.76)
+			(xy 170.18 59.69) (xy 175.26 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "02014809-7c17-4d4f-a449-d810d5ec3bf9")
+		(uuid "104d69c3-3404-4138-bd18-2cc7c08f7cf4")
 	)
 	(wire
 		(pts
-			(xy 31.75 29.21) (xy 36.83 29.21)
+			(xy 170.18 80.01) (xy 175.26 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "022fe49b-4bab-498f-a5db-c60f5b486188")
+		(uuid "1450438f-63a4-4535-8ca0-e1e3f712dd18")
 	)
 	(wire
 		(pts
-			(xy 72.39 59.69) (xy 72.39 63.5)
+			(xy 170.18 125.73) (xy 175.26 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "03b84758-63e7-48e9-95e7-1e88c762d1f4")
+		(uuid "18f61721-d87e-4590-b85b-e5084d15ee46")
 	)
 	(wire
 		(pts
-			(xy 92.71 59.69) (xy 92.71 63.5)
+			(xy 231.14 78.74) (xy 231.14 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0b7f1d22-00a0-45f7-baf8-1b78e68b0c5a")
+		(uuid "261e8e9e-7885-4418-9d74-cdb5bd7eca53")
 	)
 	(wire
 		(pts
-			(xy 31.75 74.93) (xy 36.83 74.93)
+			(xy 218.44 78.74) (xy 218.44 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0f90569e-a8cc-466b-9bd4-328d5667b0f1")
+		(uuid "2fb6e55c-e541-4f2c-980e-26836eb393da")
 	)
 	(wire
 		(pts
-			(xy 31.75 88.9) (xy 36.83 88.9)
+			(xy 170.18 107.95) (xy 175.26 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "17656ee4-9c82-4f41-9c26-f35f980dcaa9")
+		(uuid "33970e09-387f-478c-8456-2fea4ede49c9")
 	)
 	(wire
 		(pts
-			(xy 31.75 92.71) (xy 36.83 92.71)
+			(xy 210.82 78.74) (xy 210.82 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "17876134-1f71-4f1c-b624-043624b5c78e")
+		(uuid "36f2cbd3-75c6-4c45-b459-fdea279a3be4")
 	)
 	(wire
 		(pts
-			(xy 31.75 26.67) (xy 36.83 26.67)
+			(xy 170.18 123.19) (xy 175.26 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "190c22a2-d6a8-4c18-9b91-c47357ba43f1")
+		(uuid "38b4ef52-76fd-4c23-bb52-7be9596645ea")
 	)
 	(wire
 		(pts
-			(xy 31.75 58.42) (xy 36.83 58.42)
+			(xy 243.84 78.74) (xy 243.84 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1ad0ba53-6f4a-40e4-8e80-6b9447677ef8")
+		(uuid "398a002f-2b13-4ca7-a67e-a50768d9a3a2")
 	)
 	(wire
 		(pts
-			(xy 105.41 59.69) (xy 105.41 63.5)
+			(xy 170.18 54.61) (xy 175.26 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1c8c49bf-8528-4708-a124-b8489e290d72")
+		(uuid "39cb59fb-f0ef-4d51-9580-8aad38a82d33")
 	)
 	(wire
 		(pts
-			(xy 120.65 59.69) (xy 120.65 63.5)
+			(xy 228.6 78.74) (xy 228.6 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1e4c52f7-aa2f-4d90-bdc6-558919be4bf5")
+		(uuid "3c5a5566-0c4c-4241-b43f-966a84f16afa")
 	)
 	(wire
 		(pts
-			(xy 102.87 59.69) (xy 102.87 63.5)
+			(xy 170.18 96.52) (xy 175.26 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "29c30ea3-db04-4e51-9b0b-0427785f3bc7")
+		(uuid "44745e50-fc49-4727-94b5-6c4b04cc1a45")
 	)
 	(wire
 		(pts
-			(xy 85.09 59.69) (xy 85.09 63.5)
+			(xy 170.18 45.72) (xy 175.26 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2bc848e5-f0ce-4b3b-83c4-8864405ae3a0")
+		(uuid "4fa28baa-e914-4abd-9d9d-6c1a4055a1f1")
 	)
 	(wire
 		(pts
-			(xy 115.57 59.69) (xy 115.57 63.5)
+			(xy 170.18 68.58) (xy 175.26 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "322ec84d-c96b-44cc-817d-90c4694aebd1")
+		(uuid "50afe358-120f-4f53-811a-ea0f1b97be30")
 	)
 	(wire
 		(pts
-			(xy 31.75 66.04) (xy 36.83 66.04)
+			(xy 170.18 73.66) (xy 175.26 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "35b8ce96-00e9-4e54-ada1-b06219182af6")
+		(uuid "512255d6-8952-4f6b-a1f3-04d8383a0e64")
 	)
 	(wire
 		(pts
-			(xy 113.03 59.69) (xy 113.03 63.5)
+			(xy 170.18 91.44) (xy 175.26 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "377f37dd-1183-46b4-af1c-1f8563106a76")
+		(uuid "5845f782-7696-46fc-b2e9-f65cf5b4bf1f")
 	)
 	(wire
 		(pts
-			(xy 31.75 60.96) (xy 36.83 60.96)
+			(xy 170.18 62.23) (xy 175.26 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "38866343-3b60-44c5-8a05-f9a8b986ae7c")
+		(uuid "5e779d65-6192-4728-9f9b-b5cdd1c36127")
 	)
 	(wire
 		(pts
-			(xy 31.75 43.18) (xy 36.83 43.18)
+			(xy 170.18 111.76) (xy 175.26 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3a5f83d4-8db7-42a8-8c24-26f77414a5b6")
+		(uuid "5ffd1953-27da-4037-adf3-0287e38b9b84")
 	)
 	(wire
 		(pts
-			(xy 100.33 59.69) (xy 100.33 63.5)
+			(xy 213.36 78.74) (xy 213.36 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3bc17d2f-50c5-418b-88d3-3245f53648e5")
+		(uuid "616ab630-6e3f-4961-ab06-ef50030c95a9")
 	)
 	(wire
 		(pts
-			(xy 31.75 100.33) (xy 36.83 100.33)
+			(xy 238.76 78.74) (xy 238.76 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3d5ba722-adbf-4115-ae0b-71455f02b914")
+		(uuid "65b2508d-a7e0-419a-8e77-3ae3d921eeb4")
 	)
 	(wire
 		(pts
-			(xy 87.63 59.69) (xy 87.63 63.5)
+			(xy 170.18 100.33) (xy 175.26 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3eb0dd91-153f-41dc-b736-f94e0a73da1f")
+		(uuid "6b6bdb6b-6188-4219-8721-5dcaa3042f5c")
 	)
 	(wire
 		(pts
-			(xy 31.75 40.64) (xy 36.83 40.64)
+			(xy 170.18 114.3) (xy 175.26 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "449b7251-5d4a-454c-ab2c-5142b239d899")
+		(uuid "6b97884d-1f73-4b95-9346-2f18c199bd0f")
 	)
 	(wire
 		(pts
-			(xy 31.75 31.75) (xy 36.83 31.75)
+			(xy 170.18 57.15) (xy 175.26 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "52572173-609c-40e5-9ccf-932f7b3ac807")
+		(uuid "6c298ab2-1be6-4a77-b372-9d68d20608c9")
 	)
 	(wire
 		(pts
-			(xy 31.75 86.36) (xy 36.83 86.36)
+			(xy 254 78.74) (xy 254 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "554a4718-2b8f-42c1-b396-40886345ddbc")
+		(uuid "71b06395-8518-429f-af9c-ad2eea66559e")
 	)
 	(wire
 		(pts
-			(xy 31.75 35.56) (xy 36.83 35.56)
+			(xy 170.18 105.41) (xy 175.26 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5929f9c1-dfa6-4305-9ed7-eb82a7370422")
+		(uuid "784166fa-ce70-4ad9-b75d-f09d042d9c2a")
 	)
 	(wire
 		(pts
-			(xy 77.47 59.69) (xy 77.47 63.5)
+			(xy 220.98 78.74) (xy 220.98 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5a834602-0c0e-45df-afa9-28ac643b944b")
+		(uuid "7bed8ad9-72e2-4201-90fd-62d506d883b7")
 	)
 	(wire
 		(pts
-			(xy 107.95 59.69) (xy 107.95 63.5)
+			(xy 170.18 43.18) (xy 175.26 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6aaad93f-179b-4498-858e-c0ce2af6ad28")
+		(uuid "7f2461a6-8ad2-4fb0-8b11-8728faf1c278")
 	)
 	(wire
 		(pts
-			(xy 31.75 95.25) (xy 36.83 95.25)
+			(xy 170.18 50.8) (xy 175.26 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6f49dc4e-de57-4042-b3c4-15bf09446f8f")
+		(uuid "82f86666-b10c-47f7-be05-9e538fde440d")
 	)
 	(wire
 		(pts
-			(xy 31.75 54.61) (xy 36.83 54.61)
+			(xy 170.18 119.38) (xy 175.26 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "76c75327-389d-4fad-b0fb-a4c02bce3493")
+		(uuid "836ff301-1b37-4141-8fe0-8dd0cacf7b04")
 	)
 	(wire
 		(pts
-			(xy 31.75 24.13) (xy 36.83 24.13)
+			(xy 170.18 102.87) (xy 175.26 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7779750b-833f-49a1-9cb2-d8dde7756ed3")
+		(uuid "9714e9eb-d122-4c8d-835d-d1646b04a382")
 	)
 	(wire
 		(pts
-			(xy 31.75 52.07) (xy 36.83 52.07)
+			(xy 256.54 78.74) (xy 256.54 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "784cbd6e-2651-4edc-b6ef-8a65a490dcd0")
+		(uuid "97686131-f16a-48ce-a516-b3e01f5e6505")
 	)
 	(wire
 		(pts
-			(xy 82.55 59.69) (xy 82.55 63.5)
+			(xy 170.18 88.9) (xy 175.26 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8a4ce272-34ae-4889-8bdf-9417e3dab40b")
+		(uuid "9a135b49-e7f1-4b6b-825d-eae5de209bcf")
 	)
 	(wire
 		(pts
-			(xy 31.75 97.79) (xy 36.83 97.79)
+			(xy 226.06 78.74) (xy 226.06 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a376dc4f-5ece-42b9-85da-f131b725eec4")
+		(uuid "9a727417-6f9f-4875-950a-42122a4310e1")
 	)
 	(wire
 		(pts
-			(xy 118.11 59.69) (xy 118.11 63.5)
+			(xy 170.18 77.47) (xy 175.26 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a4e05e00-bbaf-48d3-8811-c756649924e0")
+		(uuid "9cdf024d-98b0-4d71-8a34-e2d10cd79b93")
 	)
 	(wire
 		(pts
-			(xy 31.75 109.22) (xy 36.83 109.22)
+			(xy 170.18 130.81) (xy 175.26 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a7cbe9b1-e229-4399-a5db-26bedc0b92c3")
+		(uuid "9ffef815-ef8d-4044-8994-2c944d70bb42")
 	)
 	(wire
 		(pts
-			(xy 74.93 59.69) (xy 74.93 63.5)
+			(xy 170.18 82.55) (xy 175.26 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aec68a59-22a7-474b-9903-ca1d77e2cebf")
+		(uuid "a154dd15-4a46-48ab-a1b4-1b310381dcd3")
 	)
 	(wire
 		(pts
-			(xy 31.75 69.85) (xy 36.83 69.85)
+			(xy 215.9 78.74) (xy 215.9 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b2da4fbc-18f0-48f5-a5e8-d6e3bcdcd943")
+		(uuid "a5c69244-fde7-46f2-b3c0-26e876e4837f")
 	)
 	(wire
 		(pts
-			(xy 31.75 104.14) (xy 36.83 104.14)
+			(xy 170.18 48.26) (xy 175.26 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b3239e86-87ac-4fc1-af2c-87d31616f98d")
+		(uuid "ac321586-2db8-4eee-a1c4-78767d6b286e")
 	)
 	(wire
 		(pts
-			(xy 31.75 106.68) (xy 36.83 106.68)
+			(xy 246.38 78.74) (xy 246.38 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c15f49de-0429-4e84-8d7f-33d30c5581c5")
+		(uuid "b1f91259-5061-4093-b359-0ec786f6dedd")
 	)
 	(wire
 		(pts
-			(xy 31.75 38.1) (xy 36.83 38.1)
+			(xy 170.18 128.27) (xy 175.26 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c6f2f14b-ce13-4592-9b82-bab26ad17131")
+		(uuid "bcb1b033-c389-4aba-b657-64837c30a4c3")
 	)
 	(wire
 		(pts
-			(xy 110.49 59.69) (xy 110.49 63.5)
+			(xy 170.18 66.04) (xy 175.26 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c77bcc1e-0131-41b5-a238-d148b9430d22")
+		(uuid "c92be972-fb05-4379-9722-c66e58f9f8fe")
 	)
 	(wire
 		(pts
-			(xy 80.01 59.69) (xy 80.01 63.5)
+			(xy 170.18 116.84) (xy 175.26 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cc273599-cf7c-4c14-bcc0-704568fe4d4c")
+		(uuid "cf3f9f6a-afdc-43ec-a7f3-ecfd84a62c83")
 	)
 	(wire
 		(pts
-			(xy 31.75 77.47) (xy 36.83 77.47)
+			(xy 223.52 78.74) (xy 223.52 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cec0280e-97aa-468a-80b2-7d0bc9f2f61c")
+		(uuid "cfcf5249-6161-4678-9d4b-eed038e1f21e")
 	)
 	(wire
 		(pts
-			(xy 31.75 49.53) (xy 36.83 49.53)
+			(xy 170.18 85.09) (xy 175.26 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "da2e0eec-ecac-418b-8f2d-c4f760ec3a44")
+		(uuid "d047a9c8-ee48-4868-92fa-2fa282ccfafc")
 	)
 	(wire
 		(pts
-			(xy 90.17 59.69) (xy 90.17 63.5)
+			(xy 248.92 78.74) (xy 248.92 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e0aac7e7-4ff8-41df-9354-850a8528224c")
+		(uuid "d10aa5c8-429c-4924-beb4-5f850309e960")
 	)
 	(wire
 		(pts
-			(xy 31.75 81.28) (xy 36.83 81.28)
+			(xy 251.46 78.74) (xy 251.46 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "eadb7377-4619-44c4-a4af-c60043d0d936")
+		(uuid "d82006ee-ddf4-4b41-a317-70809389271c")
 	)
 	(wire
 		(pts
-			(xy 31.75 83.82) (xy 36.83 83.82)
+			(xy 241.3 78.74) (xy 241.3 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fbe5525b-2342-45d2-a750-3f5606abd98c")
+		(uuid "db788f22-8bae-4bc0-a351-87ef4c37f106")
 	)
 	(wire
 		(pts
-			(xy 31.75 63.5) (xy 36.83 63.5)
+			(xy 170.18 71.12) (xy 175.26 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fdb58dba-a5d8-4bc5-9843-7cb4255dadcb")
+		(uuid "dddb92f0-ec68-4b80-9890-818eb1c4233a")
 	)
 	(wire
 		(pts
-			(xy 31.75 46.99) (xy 36.83 46.99)
+			(xy 259.08 78.74) (xy 259.08 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ff244382-5ba6-49e1-92b2-0d401bd33c55")
-	)
-	(label "TEMP_3"
-		(at 31.75 49.53 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "116d2640-b544-4245-ba18-913fcaeba129")
+		(uuid "e7e517c0-cafd-46b0-b0d8-7e7653c585c1")
 	)
 	(label "VOLT1_6 +"
-		(at 115.57 63.5 270)
+		(at 170.18 107.95 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1065,10 +1054,10 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "128b5a7e-3ba5-4a72-9d3f-061cd9d67e20")
+		(uuid "02cea076-c57e-4bad-97b1-ce3a94d001e0")
 	)
-	(label "VOLT1_6 +"
-		(at 31.75 88.9 180)
+	(label "VOLT1_8 +"
+		(at 259.08 82.55 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1076,120 +1065,10 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "1648a141-3ce9-4a24-8982-1f07b6c4cdc7")
-	)
-	(label "VOLT_5 -"
-		(at 31.75 69.85 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "16afc1df-0146-4bba-b33f-36d5f1aebc37")
-	)
-	(label "VOLT1_1 +"
-		(at 31.75 31.75 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1b0b261d-0c7a-4998-b041-e0be625597e6")
-	)
-	(label "VOLT1_5 +"
-		(at 113.03 63.5 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "200065cb-3541-4847-83b3-47f6805dbd83")
-	)
-	(label "TEMP_GND"
-		(at 31.75 52.07 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2461fda0-fb67-4f26-ab25-cf1703350e74")
-	)
-	(label "TEMP_8"
-		(at 90.17 63.5 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "25d3ef51-e747-4b95-8547-38a99d336a46")
-	)
-	(label "VOLT_7 -"
-		(at 31.75 92.71 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2a4ff18f-f6b4-47fa-a34f-d93bffb93396")
-	)
-	(label "VOLT_1 -"
-		(at 31.75 24.13 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "31722a93-9b2e-451c-a9bd-1e4a71341f58")
-	)
-	(label "VOLT1_5 +"
-		(at 31.75 77.47 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "32602fe8-eaa7-42c1-a936-9b4299372551")
-	)
-	(label "TEMP_4"
-		(at 80.01 63.5 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "34f68b63-1d0f-438e-bdfe-a6088b929809")
-	)
-	(label "TEMP_6"
-		(at 85.09 63.5 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3a38bee4-fea7-40e5-a201-9ea408876cf3")
+		(uuid "0586b848-9e6a-42ac-9541-10ac334b9201")
 	)
 	(label "TEMP_5"
-		(at 31.75 72.39 180)
+		(at 170.18 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1197,21 +1076,10 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "3e2f6234-5e09-44fc-8430-130ef5c47e46")
-	)
-	(label "VOLT_6 -"
-		(at 31.75 81.28 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3f51854f-2908-4636-a3cd-7afef09ce50e")
+		(uuid "09e1c08d-6294-4cd5-9a39-3ab8d41d239c")
 	)
 	(label "VOLT1_4 +"
-		(at 110.49 63.5 270)
+		(at 248.92 82.55 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1219,10 +1087,10 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "3fa4cddf-bb20-4eac-a27f-3c54e46b6f9c")
+		(uuid "0ae4652e-fe11-416f-af2a-64ad7dccfe24")
 	)
-	(label "TEMP_7"
-		(at 87.63 63.5 270)
+	(label "VOLT1_4 +"
+		(at 170.18 85.09 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1230,10 +1098,10 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "515b2cd6-3361-41ed-b34a-799320e24a96")
+		(uuid "1f868d37-3c03-4f9a-817b-6ba3a1fd2436")
 	)
-	(label "VOLT1_2 +"
-		(at 105.41 63.5 270)
+	(label "TEMP_GND"
+		(at 170.18 48.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1241,10 +1109,10 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "54e26427-569e-443f-9a9a-8c2db1e2a4fc")
+		(uuid "24aac547-4818-4fe5-a020-a77427baa769")
 	)
-	(label "VOLT_3 -"
-		(at 31.75 46.99 180)
+	(label "TEMP_3"
+		(at 170.18 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1252,10 +1120,120 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "594e39fd-a998-48d7-8ebc-e3ee699f785f")
+		(uuid "280a3526-b7f6-41ee-a53a-cb135cdf4514")
+	)
+	(label "VOLT1_1 +"
+		(at 241.3 82.55 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2c10d78b-9e20-454e-b6da-46386bff12fe")
+	)
+	(label "VOLT1_3 +"
+		(at 170.18 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2dec516f-b02a-40e5-b20d-09e4c68b2a71")
+	)
+	(label "TEMP_2"
+		(at 170.18 57.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "32e497dc-fc17-492a-9470-267d90d7f958")
+	)
+	(label "TEMP_4"
+		(at 170.18 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "34295dbe-36bd-487d-b958-06d2f4e9d093")
+	)
+	(label "VOLT1_7 +"
+		(at 256.54 82.55 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "374806f2-41c1-44de-b4de-40750ab56d66")
+	)
+	(label "TEMP_GND"
+		(at 170.18 128.27 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3c86636b-6d45-4731-bc57-cfab34268485")
+	)
+	(label "TEMP_GND"
+		(at 170.18 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4170e500-9d3f-4400-bfcd-62a179667c0f")
+	)
+	(label "TEMP_GND"
+		(at 170.18 59.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "447dbc12-1c19-404c-9ffc-aacf226423f0")
+	)
+	(label "VOLT1_5 +"
+		(at 170.18 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4524666b-3b6b-430e-9d88-84ed3237f608")
+	)
+	(label "TEMP_8"
+		(at 170.18 125.73 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "539edd4c-9c5a-40be-a02e-b2ee8bbc666d")
 	)
 	(label "VOLT_2 -"
-		(at 31.75 35.56 180)
+		(at 170.18 54.61 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1263,21 +1241,10 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "618b60f0-3aec-49d6-a111-186b7810dddc")
-	)
-	(label "VOLT1_7 +"
-		(at 31.75 100.33 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "65ff3580-c705-41d1-a9f0-94d8ed263654")
+		(uuid "5aacf2f3-6d3c-4253-b4a3-f5f047dadf29")
 	)
 	(label "TEMP_GND"
-		(at 31.75 29.21 180)
+		(at 170.18 105.41 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1285,296 +1252,10 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "7021d68f-e3f1-4a9a-bf52-a2a9dfbf19a4")
-	)
-	(label "TEMP_5"
-		(at 82.55 63.5 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "72bf2b01-b002-4381-a487-7d965e2e41b0")
-	)
-	(label "VOLT1_3 +"
-		(at 107.95 63.5 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "77fd2b8b-feea-4662-9479-7bf8d9365a11")
-	)
-	(label "TEMP_6"
-		(at 31.75 83.82 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7b8bd978-2b0c-4ef2-8539-3f4f7ff84e1c")
-	)
-	(label "TEMP_GND"
-		(at 92.71 63.5 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7bf9807b-91d4-4b6c-830c-56133ecef616")
-	)
-	(label "TEMP_4"
-		(at 31.75 60.96 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7d4e31d8-6548-4307-8e61-0081fe49f1d3")
-	)
-	(label "TEMP_1"
-		(at 72.39 63.5 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7ecdae3a-8fd8-47cf-9d2d-c6be3df27f45")
-	)
-	(label "TEMP_8"
-		(at 31.75 106.68 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8456bdb0-5644-4b3b-aaf9-19331656a812")
-	)
-	(label "VOLT_4 -"
-		(at 31.75 58.42 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "85906506-1fe3-46fb-8bf4-b6cde4d1810f")
-	)
-	(label "TEMP_2"
-		(at 74.93 63.5 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "86c6da4e-857f-47fa-8d24-0cfd3e75f628")
-	)
-	(label "VOLT1_2 +"
-		(at 31.75 43.18 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "881c36ea-94f8-4e48-b35a-979af5547499")
-	)
-	(label "VOLT_8 -"
-		(at 31.75 104.14 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9ed25248-f3c9-4072-a456-a643e68800a8")
-	)
-	(label "VOLT1_8 +"
-		(at 31.75 111.76 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a888611e-1f85-4001-9823-bc58bb535d69")
-	)
-	(label "TEMP_GND"
-		(at 31.75 109.22 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "aa3f5462-f1d6-465e-968a-f38934cf4436")
-	)
-	(label "TEMP_1"
-		(at 31.75 26.67 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bc8da53d-6b28-4011-bcf4-e47e4567b20f")
-	)
-	(label "VOLT1_7 +"
-		(at 118.11 63.5 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bd84c5fc-3b64-4ed2-968b-3129265ec5c4")
-	)
-	(label "TEMP_7"
-		(at 31.75 95.25 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "be5051d7-4010-4db3-944a-a6f9aa39a918")
-	)
-	(label "TEMP_GND"
-		(at 31.75 74.93 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c2686226-c89d-41fa-ab96-6626e2811ceb")
-	)
-	(label "TEMP_3"
-		(at 77.47 63.5 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c749375b-4ff6-490f-a735-cff654cf3fcb")
-	)
-	(label "TEMP_2"
-		(at 31.75 38.1 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c8a13bb4-d1f5-477e-9767-b3ca04682af4")
-	)
-	(label "VOLT1_4 +"
-		(at 31.75 66.04 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c8edaee3-270e-4b4c-97a7-4002a0800198")
-	)
-	(label "VOLT_1 -"
-		(at 100.33 63.5 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c9a969be-6729-402f-91c5-75d7c215a767")
-	)
-	(label "VOLT1_3 +"
-		(at 31.75 54.61 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ccf1ac1d-96ff-46b9-85c4-e6877154b24f")
-	)
-	(label "VOLT1_8 +"
-		(at 120.65 63.5 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ce2e5d0a-1ba7-4350-914a-7c86e4a5bd87")
-	)
-	(label "TEMP_GND"
-		(at 31.75 63.5 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d4172587-cd08-446d-8640-4e6a5dba4947")
-	)
-	(label "TEMP_GND"
-		(at 31.75 40.64 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "dcae71d8-42d5-4b92-b144-213a537814fe")
-	)
-	(label "TEMP_GND"
-		(at 31.75 97.79 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e2196bdc-cef5-46db-8474-871260a74c4f")
+		(uuid "63124a3a-2e5c-40f7-a8d2-1608a5d26f68")
 	)
 	(label "VOLT1_1 +"
-		(at 102.87 63.5 270)
+		(at 170.18 50.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1582,10 +1263,10 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "ed47a615-40cc-4ad8-8678-6c40d23839ba")
+		(uuid "68f35bf7-7f6a-4390-b3cf-848f1ddbe478")
 	)
 	(label "TEMP_GND"
-		(at 31.75 86.36 180)
+		(at 170.18 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1593,20 +1274,339 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "fcc0989d-e2f1-4f82-9435-4b25292ae996")
+		(uuid "69ffe537-7f4a-4738-b267-6d7e5d2e6193")
+	)
+	(label "TEMP_GND"
+		(at 170.18 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6abbc45f-87de-45d0-83e7-c716805715cd")
+	)
+	(label "TEMP_4"
+		(at 218.44 82.55 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "78bb06fd-def2-490f-b7fc-5041b5500bf9")
+	)
+	(label "TEMP_8"
+		(at 228.6 82.55 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "862f071e-ebae-4bd1-835d-a4f9a0559fdd")
+	)
+	(label "VOLT1_7 +"
+		(at 170.18 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8640c99a-89aa-4ad8-9a71-d098dfcef60a")
+	)
+	(label "VOLT_3 -"
+		(at 170.18 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "872f9824-7150-4f8c-aec3-bb12721c1e02")
+	)
+	(label "VOLT_6 -"
+		(at 170.18 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "88db13b6-872c-42d0-a162-86dbae3f4810")
+	)
+	(label "TEMP_2"
+		(at 213.36 82.55 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ac85f76a-3983-4add-9523-30674ec9dea2")
+	)
+	(label "VOLT_1 -"
+		(at 238.76 82.55 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b18e779c-38d4-4ec4-b71d-195f0b774303")
+	)
+	(label "TEMP_7"
+		(at 226.06 82.55 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b441ce53-29d2-4501-95cb-8b74c73dc13b")
+	)
+	(label "TEMP_3"
+		(at 215.9 82.55 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b836cd4e-0ac4-416d-85a8-4d9e7c18b35b")
+	)
+	(label "VOLT1_8 +"
+		(at 170.18 130.81 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b84c69b9-7f60-4165-9551-b59346218e1a")
+	)
+	(label "TEMP_6"
+		(at 170.18 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b996b95a-8c40-47aa-8fdf-394e11693cff")
+	)
+	(label "VOLT_8 -"
+		(at 170.18 123.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c051e454-e068-4e8b-b049-34e4323f4291")
+	)
+	(label "VOLT1_6 +"
+		(at 254 82.55 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c67a57ca-b384-4c15-8c40-eaea93d9e699")
+	)
+	(label "VOLT_5 -"
+		(at 170.18 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c79233a6-2059-4158-9d1e-8e51d4902d29")
+	)
+	(label "TEMP_GND"
+		(at 170.18 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cd131aae-043f-43c1-a0a5-577e19c5469f")
+	)
+	(label "TEMP_GND"
+		(at 231.14 82.55 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d0e20b9f-139d-4e30-9752-0c9d4e3db203")
+	)
+	(label "TEMP_1"
+		(at 170.18 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d50e4e0a-da99-41c6-b0a4-6b3b0651f3e4")
+	)
+	(label "VOLT1_2 +"
+		(at 243.84 82.55 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d6561477-8138-4636-8837-7bd8ba96cfbb")
+	)
+	(label "TEMP_5"
+		(at 220.98 82.55 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e00be1c5-52b7-4a78-9ff8-0aa3f804e2e0")
+	)
+	(label "TEMP_7"
+		(at 170.18 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e21a7db6-285f-4b17-8239-17d4e2d59090")
+	)
+	(label "VOLT1_2 +"
+		(at 170.18 62.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e3f1f495-04c9-46cf-9a5d-bf18b0d6e922")
+	)
+	(label "VOLT_4 -"
+		(at 170.18 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e6d87e7c-0b00-4548-8e39-b3b3ca4d35bd")
+	)
+	(label "TEMP_1"
+		(at 210.82 82.55 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e7f28f5e-593a-4231-99f0-59fcb05001a1")
+	)
+	(label "VOLT1_5 +"
+		(at 251.46 82.55 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ea4f70b0-6fab-43c4-8136-795bbea73684")
+	)
+	(label "VOLT1_3 +"
+		(at 246.38 82.55 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ef051854-f8a0-41cd-adeb-fc9e5253c307")
+	)
+	(label "VOLT_1 -"
+		(at 170.18 43.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f1495bf7-072f-4275-9813-0377ec79d08b")
+	)
+	(label "TEMP_6"
+		(at 223.52 82.55 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f46d2e13-aa62-48af-89a6-717375f86a79")
+	)
+	(label "VOLT_7 -"
+		(at 170.18 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fbd9a433-6e0f-4248-8b7e-8338fd19861f")
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 41.91 49.53 0)
+		(at 180.34 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2b1845d1-33cf-4a76-9f41-324bcf16cc1f")
-		(property "Reference" "J3"
-			(at 45.72 50.8 90)
+		(uuid "0b4170dc-8240-45c4-b3d7-88c5314e443e")
+		(property "Reference" "J13"
+			(at 184.15 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1614,7 +1614,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04"
-			(at 48.26 50.8 90)
+			(at 186.69 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1622,7 +1622,7 @@
 			)
 		)
 		(property "Footprint" "footprints:CONN_S4B-PH-K-S_JST"
-			(at 41.91 49.53 0)
+			(at 180.34 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1631,7 +1631,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 41.91 49.53 0)
+			(at 180.34 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1640,7 +1640,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 41.91 49.53 0)
+			(at 180.34 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1649,21 +1649,21 @@
 			)
 		)
 		(pin "3"
-			(uuid "73a281fb-b1ff-4e0d-bd1f-e369fb89f411")
+			(uuid "13749d09-c369-4ffe-8217-6721345e0ecb")
 		)
 		(pin "4"
-			(uuid "8f26e78d-cfdc-4f4c-8447-d608aa84688c")
+			(uuid "d4538290-3a03-4752-bf86-f5adfdc06edc")
 		)
 		(pin "2"
-			(uuid "c5ae042c-ba15-46de-9621-c86e4716b881")
+			(uuid "a79bc3bf-aa24-4f54-955d-60eb5ef8a01b")
 		)
 		(pin "1"
-			(uuid "e0db6786-2721-48ce-a757-41f954fe771d")
+			(uuid "c1758fba-183f-43cb-a317-fe997fb28c6a")
 		)
 		(instances
-			(project "Battery-SegmentPCB-B"
-				(path "/92171ed8-cf4a-4d72-a2ea-ec84231c0ff7"
-					(reference "J3")
+			(project "Battery-SegmentPCB-B_V2"
+				(path "/47d58cef-09c3-4226-a448-16f83d0c12fa"
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -1671,16 +1671,16 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x09")
-		(at 82.55 54.61 90)
+		(at 220.98 73.66 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "34d65db3-47b1-4418-9143-586326862c7c")
-		(property "Reference" "J9"
-			(at 82.55 48.26 90)
+		(uuid "136c4c56-6fe3-448a-add5-59d66081098c")
+		(property "Reference" "J19"
+			(at 220.98 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1688,7 +1688,7 @@
 			)
 		)
 		(property "Value" "Conn_01x09"
-			(at 82.55 50.8 90)
+			(at 220.98 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1696,7 +1696,7 @@
 			)
 		)
 		(property "Footprint" "footprints:CON_436500915_MOL"
-			(at 82.55 54.61 0)
+			(at 220.98 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1705,7 +1705,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 82.55 54.61 0)
+			(at 220.98 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1714,7 +1714,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 82.55 54.61 0)
+			(at 220.98 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1723,36 +1723,36 @@
 			)
 		)
 		(pin "2"
-			(uuid "4d0839d8-69ed-44fd-92f2-2cb5c8f4a7d4")
+			(uuid "ffe11953-df19-4069-9b25-a67300fcf32b")
 		)
 		(pin "1"
-			(uuid "e1890c48-ca8b-4a7e-87ed-da5d7f68191d")
+			(uuid "83b4d028-bf7c-43be-a485-530ad8b5a448")
 		)
 		(pin "4"
-			(uuid "b80bca96-6dca-4e6f-a4d9-ee8243bec3ee")
+			(uuid "37c04563-6dbd-4c91-9fb1-85f07ea58372")
 		)
 		(pin "3"
-			(uuid "588e37e0-dbd4-43d0-b9e7-059697bf666a")
+			(uuid "2c7b5fc6-581b-4cb7-a5d5-68906174790e")
 		)
 		(pin "6"
-			(uuid "f17a6cc7-caab-4114-adf8-75f9d5820923")
+			(uuid "9a7d9a67-3452-452c-aacc-fc4d0bee85bc")
 		)
 		(pin "8"
-			(uuid "9279d8eb-051a-4f6b-b123-f9b84e9a8954")
+			(uuid "10282ada-7615-486b-8dc8-30aaa83e961c")
 		)
 		(pin "5"
-			(uuid "2c7f7923-8bf8-486e-b47a-abf0718c62a6")
+			(uuid "6bae30f4-7412-4eae-84d6-af4eb69af81e")
 		)
 		(pin "7"
-			(uuid "cf19587c-4123-475f-955c-f6eb3ccf1324")
+			(uuid "1a398068-de45-44ed-aa8e-e3de3f3cbc0c")
 		)
 		(pin "9"
-			(uuid "8e8dd5bf-4274-4dad-a6cb-6660b7cd2102")
+			(uuid "77df9607-7b24-4185-8282-344ca81632e5")
 		)
 		(instances
-			(project "Battery-SegmentPCB-B"
-				(path "/92171ed8-cf4a-4d72-a2ea-ec84231c0ff7"
-					(reference "J9")
+			(project "Battery-SegmentPCB-B_V2"
+				(path "/47d58cef-09c3-4226-a448-16f83d0c12fa"
+					(reference "J19")
 					(unit 1)
 				)
 			)
@@ -1760,16 +1760,16 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 41.91 106.68 0)
+		(at 180.34 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5784d3a6-bb71-4fe7-ab03-23708d742b87")
-		(property "Reference" "J8"
-			(at 45.72 107.95 90)
+		(uuid "3546929e-c33e-4e0e-893f-f92df3e0a25f")
+		(property "Reference" "J17"
+			(at 184.15 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1777,7 +1777,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04"
-			(at 48.26 107.95 90)
+			(at 186.69 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1785,7 +1785,7 @@
 			)
 		)
 		(property "Footprint" "footprints:CONN_S4B-PH-K-S_JST"
-			(at 41.91 106.68 0)
+			(at 180.34 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1794,7 +1794,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 41.91 106.68 0)
+			(at 180.34 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1803,7 +1803,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 41.91 106.68 0)
+			(at 180.34 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1812,21 +1812,21 @@
 			)
 		)
 		(pin "3"
-			(uuid "8656d050-0333-4135-b089-40173ceca8ea")
+			(uuid "8d1f6f7e-300f-48a1-a2af-3f54e4531877")
 		)
 		(pin "4"
-			(uuid "16da5744-e100-45f6-984c-2db0664d0838")
+			(uuid "a6a3fa6e-d49a-427d-ad99-70db6940925d")
 		)
 		(pin "2"
-			(uuid "30fae57c-ecbe-4d45-a5cb-63cba597895c")
+			(uuid "2f0a9d58-dde9-43bf-9bc6-ea2851b06f20")
 		)
 		(pin "1"
-			(uuid "1d2bf213-fc81-4f3f-9003-dbcc227ab0eb")
+			(uuid "fb838802-e65d-4dc2-be25-f81ff4e24714")
 		)
 		(instances
-			(project "Battery-SegmentPCB-B"
-				(path "/92171ed8-cf4a-4d72-a2ea-ec84231c0ff7"
-					(reference "J8")
+			(project "Battery-SegmentPCB-B_V2"
+				(path "/47d58cef-09c3-4226-a448-16f83d0c12fa"
+					(reference "J17")
 					(unit 1)
 				)
 			)
@@ -1834,16 +1834,16 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 41.91 38.1 0)
+		(at 180.34 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8014a2b7-e243-4eb2-af41-5c32da5414df")
-		(property "Reference" "J2"
-			(at 45.72 39.37 90)
+		(uuid "38adc710-de05-45dd-a292-a5896f358bd5")
+		(property "Reference" "J16"
+			(at 184.15 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1851,7 +1851,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04"
-			(at 48.26 39.37 90)
+			(at 186.69 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1859,7 +1859,7 @@
 			)
 		)
 		(property "Footprint" "footprints:CONN_S4B-PH-K-S_JST"
-			(at 41.91 38.1 0)
+			(at 180.34 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1868,7 +1868,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 41.91 38.1 0)
+			(at 180.34 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1877,7 +1877,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 41.91 38.1 0)
+			(at 180.34 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1886,21 +1886,21 @@
 			)
 		)
 		(pin "3"
-			(uuid "fd096957-f91b-4a18-a8e2-f3e81b6fbb0c")
+			(uuid "022c32fc-daed-4e5e-907e-b0b4e2d67467")
 		)
 		(pin "4"
-			(uuid "0bdd8ea1-9d81-4566-b8be-dd88d54de3e1")
+			(uuid "5e70c75c-8153-4aec-bfa8-fa7c2d969abd")
 		)
 		(pin "2"
-			(uuid "ded63bd3-e60f-40bd-a3c7-7f28bb1396b9")
+			(uuid "203b2772-6143-4505-8b40-2d03a9db0d7e")
 		)
 		(pin "1"
-			(uuid "93300974-5bee-4039-ad42-4378e3631958")
+			(uuid "073ecbbb-fd50-49ae-a7e4-0fd5e8017b36")
 		)
 		(instances
-			(project "Battery-SegmentPCB-B"
-				(path "/92171ed8-cf4a-4d72-a2ea-ec84231c0ff7"
-					(reference "J2")
+			(project "Battery-SegmentPCB-B_V2"
+				(path "/47d58cef-09c3-4226-a448-16f83d0c12fa"
+					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -1908,16 +1908,16 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 41.91 95.25 0)
+		(at 180.34 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "984b31da-7d53-4550-8d38-d214111e02aa")
-		(property "Reference" "J7"
-			(at 45.72 96.52 90)
+		(uuid "3d8a0e16-33fa-49a8-84ab-b040549ebebc")
+		(property "Reference" "J11"
+			(at 184.15 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1925,7 +1925,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04"
-			(at 48.26 96.52 90)
+			(at 186.69 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1933,7 +1933,7 @@
 			)
 		)
 		(property "Footprint" "footprints:CONN_S4B-PH-K-S_JST"
-			(at 41.91 95.25 0)
+			(at 180.34 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1942,7 +1942,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 41.91 95.25 0)
+			(at 180.34 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1951,7 +1951,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 41.91 95.25 0)
+			(at 180.34 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1960,21 +1960,21 @@
 			)
 		)
 		(pin "3"
-			(uuid "35f21649-f73d-4294-8529-bfc68e44401f")
+			(uuid "627f1e06-aba4-4377-9711-c7ada65be9e8")
 		)
 		(pin "4"
-			(uuid "7aab2cb6-333a-4edb-8db1-dc586cbc5e1f")
+			(uuid "d40646df-6ace-4c64-b426-14bdafc42060")
 		)
 		(pin "2"
-			(uuid "b7f4e59c-e506-425d-8424-ffcdfb2bcce1")
+			(uuid "89631861-b81b-474e-84be-9a1c1221de0b")
 		)
 		(pin "1"
-			(uuid "38f5bd8a-b6e1-4c9c-ae51-bcef14690a35")
+			(uuid "830fa7b8-5303-4587-8f74-25ca9bf2ce5a")
 		)
 		(instances
-			(project "Battery-SegmentPCB-B"
-				(path "/92171ed8-cf4a-4d72-a2ea-ec84231c0ff7"
-					(reference "J7")
+			(project "Battery-SegmentPCB-B_V2"
+				(path "/47d58cef-09c3-4226-a448-16f83d0c12fa"
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -1982,16 +1982,16 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 41.91 60.96 0)
+		(at 180.34 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b3a5ab1c-19f4-4722-ab71-d9c0c7fb1601")
-		(property "Reference" "J4"
-			(at 45.72 62.23 90)
+		(uuid "6224385c-9cb6-4524-a080-93d61a107fc5")
+		(property "Reference" "J18"
+			(at 184.15 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1999,7 +1999,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04"
-			(at 48.26 62.23 90)
+			(at 186.69 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2007,7 +2007,7 @@
 			)
 		)
 		(property "Footprint" "footprints:CONN_S4B-PH-K-S_JST"
-			(at 41.91 60.96 0)
+			(at 180.34 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2016,7 +2016,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 41.91 60.96 0)
+			(at 180.34 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2025,7 +2025,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 41.91 60.96 0)
+			(at 180.34 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2034,21 +2034,21 @@
 			)
 		)
 		(pin "3"
-			(uuid "3aefc11c-9025-4712-a423-ed1f5a10fe51")
+			(uuid "86bcc596-c6ce-44aa-b5f5-833d8c5c6ccf")
 		)
 		(pin "4"
-			(uuid "7855cd92-9099-47e2-a8cc-97c9f7ee1fc6")
+			(uuid "829ed0ff-6544-4761-b85a-20945a30b654")
 		)
 		(pin "2"
-			(uuid "51017a3f-84d5-425d-b335-8ce034c2cb0f")
+			(uuid "1ea8ffe8-17f9-4a02-a1e0-d92f260447fe")
 		)
 		(pin "1"
-			(uuid "195114cd-97d5-4b9d-9177-c44daaa63ffe")
+			(uuid "e70887b2-f8cf-4718-a6ea-d882fbf4d3dc")
 		)
 		(instances
-			(project "Battery-SegmentPCB-B"
-				(path "/92171ed8-cf4a-4d72-a2ea-ec84231c0ff7"
-					(reference "J4")
+			(project "Battery-SegmentPCB-B_V2"
+				(path "/47d58cef-09c3-4226-a448-16f83d0c12fa"
+					(reference "J18")
 					(unit 1)
 				)
 			)
@@ -2056,16 +2056,16 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 41.91 26.67 0)
+		(at 180.34 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b57935ff-c35f-4206-96d1-970fd291a8f9")
-		(property "Reference" "J1"
-			(at 45.72 27.94 90)
+		(uuid "8f8017e5-99fc-4de1-baa5-dfbc8b6761c3")
+		(property "Reference" "J14"
+			(at 184.15 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2073,7 +2073,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04"
-			(at 48.26 27.94 90)
+			(at 186.69 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2081,7 +2081,7 @@
 			)
 		)
 		(property "Footprint" "footprints:CONN_S4B-PH-K-S_JST"
-			(at 41.91 26.67 0)
+			(at 180.34 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2090,7 +2090,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 41.91 26.67 0)
+			(at 180.34 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2099,7 +2099,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 41.91 26.67 0)
+			(at 180.34 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2108,95 +2108,21 @@
 			)
 		)
 		(pin "3"
-			(uuid "112871d9-bb24-4c68-ac9a-c74248fe2dff")
+			(uuid "a387c481-4348-4157-8a0a-766687761fff")
 		)
 		(pin "4"
-			(uuid "3bea0e2e-2c32-43ca-9cb3-3dad5523ef09")
+			(uuid "39c1b482-d743-4112-875b-5f64e969f7fe")
 		)
 		(pin "2"
-			(uuid "83364d50-6d4f-478a-b13d-36d1d5ea09ab")
+			(uuid "7416275b-3aef-473e-b929-381ea104da8c")
 		)
 		(pin "1"
-			(uuid "9b2e5ee7-5035-49a7-970a-b0162a6add34")
+			(uuid "de249bdf-0b3c-4087-9791-6cf7db8b7465")
 		)
 		(instances
-			(project "Battery-SegmentPCB-B"
-				(path "/92171ed8-cf4a-4d72-a2ea-ec84231c0ff7"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 41.91 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d2293f43-1554-4698-977d-ab2671158206")
-		(property "Reference" "J5"
-			(at 45.72 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x04"
-			(at 48.26 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:CONN_S4B-PH-K-S_JST"
-			(at 41.91 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 41.91 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 41.91 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "2c1375a8-c301-4625-bc08-d26fff55870e")
-		)
-		(pin "4"
-			(uuid "8ce8eba5-2baf-48a1-9206-1a292ca087b3")
-		)
-		(pin "2"
-			(uuid "db5835c5-954b-4c9f-ab60-30bf97820db4")
-		)
-		(pin "1"
-			(uuid "6bb8dc22-46e5-4ee0-8210-17018477be67")
-		)
-		(instances
-			(project "Battery-SegmentPCB-B"
-				(path "/92171ed8-cf4a-4d72-a2ea-ec84231c0ff7"
-					(reference "J5")
+			(project "Battery-SegmentPCB-B_V2"
+				(path "/47d58cef-09c3-4226-a448-16f83d0c12fa"
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -2204,16 +2130,16 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x09")
-		(at 110.49 54.61 90)
+		(at 248.92 73.66 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f67ba06e-3b74-4aa6-aeb3-154f279838f1")
-		(property "Reference" "J10"
-			(at 110.49 48.26 90)
+		(uuid "b96ea451-9c4e-42ce-adca-9cf439502345")
+		(property "Reference" "J20"
+			(at 248.92 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2221,7 +2147,7 @@
 			)
 		)
 		(property "Value" "Conn_01x09"
-			(at 110.49 50.8 90)
+			(at 248.92 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2229,7 +2155,7 @@
 			)
 		)
 		(property "Footprint" "footprints:CON_436500915_MOL"
-			(at 110.49 54.61 0)
+			(at 248.92 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2238,7 +2164,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 110.49 54.61 0)
+			(at 248.92 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2247,7 +2173,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 110.49 54.61 0)
+			(at 248.92 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2256,36 +2182,36 @@
 			)
 		)
 		(pin "2"
-			(uuid "fc3ca31b-0bc0-4f63-9233-83bed25dc15b")
+			(uuid "7ae6bbc2-c0b9-48e5-be78-55ad047d82ce")
 		)
 		(pin "1"
-			(uuid "4fdbc640-73c8-4d54-982c-5d612435c56d")
+			(uuid "a3e2ae4c-b49b-4cec-9529-fd8530d6d346")
 		)
 		(pin "4"
-			(uuid "2a3cd9f4-feef-4a46-acdc-076d752529ba")
+			(uuid "3846a19f-371f-4bab-aedf-6c31023b1123")
 		)
 		(pin "3"
-			(uuid "818446c0-7347-4140-947f-587019a291bd")
+			(uuid "608e379c-5d37-4939-b771-cbc9323ef360")
 		)
 		(pin "6"
-			(uuid "7a3ee3bb-b8b6-4b67-af17-38f670323623")
+			(uuid "5e367570-a4e9-416e-afca-1172aa2167b6")
 		)
 		(pin "8"
-			(uuid "68f64d96-78c7-40bc-8af9-28e0b0281fe6")
+			(uuid "aab2f230-869a-46f7-bd7c-5742a535f0ca")
 		)
 		(pin "5"
-			(uuid "e4731ac6-08c3-4151-acb2-ef5c1bf523a1")
+			(uuid "1ef139c4-9a6f-4b04-8bba-44b4c70f0c3c")
 		)
 		(pin "7"
-			(uuid "512d9de2-cf22-4601-820c-8eaad076477e")
+			(uuid "b7d480dd-3c21-4ed4-b177-5a35aee73c8b")
 		)
 		(pin "9"
-			(uuid "edc315b1-6e73-426d-b19b-302942bce493")
+			(uuid "b0677406-8124-423b-a029-7aa99a968147")
 		)
 		(instances
-			(project "Battery-SegmentPCB-B"
-				(path "/92171ed8-cf4a-4d72-a2ea-ec84231c0ff7"
-					(reference "J10")
+			(project "Battery-SegmentPCB-B_V2"
+				(path "/47d58cef-09c3-4226-a448-16f83d0c12fa"
+					(reference "J20")
 					(unit 1)
 				)
 			)
@@ -2293,16 +2219,16 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 41.91 83.82 0)
+		(at 180.34 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f9d931eb-f859-4d56-ab91-d997f913317b")
-		(property "Reference" "J6"
-			(at 45.72 85.09 90)
+		(uuid "e2a7276e-49de-401a-b777-c7eb9e6ae845")
+		(property "Reference" "J15"
+			(at 184.15 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2310,7 +2236,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04"
-			(at 48.26 85.09 90)
+			(at 186.69 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2318,7 +2244,7 @@
 			)
 		)
 		(property "Footprint" "footprints:CONN_S4B-PH-K-S_JST"
-			(at 41.91 83.82 0)
+			(at 180.34 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2327,7 +2253,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 41.91 83.82 0)
+			(at 180.34 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2336,7 +2262,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 41.91 83.82 0)
+			(at 180.34 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2345,21 +2271,95 @@
 			)
 		)
 		(pin "3"
-			(uuid "0ef8e3c5-9184-4016-a571-12074e1d9508")
+			(uuid "733108e8-2840-4765-9fd1-8275bba34d17")
 		)
 		(pin "4"
-			(uuid "8306c1e1-0820-46be-8953-52385bb4f3c1")
+			(uuid "dfd28039-f9ae-4ea4-9feb-81703fae545f")
 		)
 		(pin "2"
-			(uuid "1e3dfaa8-01d2-49f2-92fc-9c805682b4b2")
+			(uuid "9b1f5f74-c3df-46b8-890d-63d0011b274c")
 		)
 		(pin "1"
-			(uuid "ef187225-d273-4a62-93a5-27a4bf992b68")
+			(uuid "478ab36e-6770-46de-a079-d44c67427f52")
 		)
 		(instances
-			(project "Battery-SegmentPCB-B"
-				(path "/92171ed8-cf4a-4d72-a2ea-ec84231c0ff7"
-					(reference "J6")
+			(project "Battery-SegmentPCB-B_V2"
+				(path "/47d58cef-09c3-4226-a448-16f83d0c12fa"
+					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 180.34 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ecf953de-9ca6-4a58-a8e8-833a9a3641e2")
+		(property "Reference" "J12"
+			(at 184.15 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 186.69 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:CONN_S4B-PH-K-S_JST"
+			(at 180.34 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 180.34 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "bc4655ff-d624-4fcd-837b-03d37caf3faa")
+		)
+		(pin "4"
+			(uuid "335dd58e-da81-4fe5-bd9a-1dfa104afa39")
+		)
+		(pin "2"
+			(uuid "2508750b-70b2-4b96-bfa6-4b8b3e4997c2")
+		)
+		(pin "1"
+			(uuid "bc4193be-e6b9-44f9-b53b-068868da5b9b")
+		)
+		(instances
+			(project "Battery-SegmentPCB-B_V2"
+				(path "/47d58cef-09c3-4226-a448-16f83d0c12fa"
+					(reference "J12")
 					(unit 1)
 				)
 			)
