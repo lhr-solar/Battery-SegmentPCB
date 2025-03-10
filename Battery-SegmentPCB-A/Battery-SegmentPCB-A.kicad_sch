@@ -5,22 +5,22 @@
 	(uuid "4c734560-430e-4436-a585-cee76e7030f6")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_01x04"
+		(symbol "Connector_Generic:Conn_01x01"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 5.08 0)
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_01x04"
-				(at 0 -7.62 0)
+			(property "Value" "Conn_01x01"
+				(at 0 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -45,7 +45,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -72,10 +72,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x04_1_1"
+			(symbol "Conn_01x01_1_1"
 				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
+					(start -1.27 0.127)
+					(end 0 -0.127)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -84,6 +84,105 @@
 						(type none)
 					)
 				)
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
 				(rectangle
 					(start -1.27 -2.413)
 					(end 0 -2.667)
@@ -107,19 +206,8 @@
 					)
 				)
 				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -6.35)
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -129,7 +217,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -147,7 +235,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -157,42 +245,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -547,23 +599,13 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 93.98) (xy 38.1 93.98)
+			(xy 46.355 114.935) (xy 48.26 114.935)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "03eed847-646c-4212-badc-237ca6ecd4ab")
-	)
-	(wire
-		(pts
-			(xy 33.02 59.69) (xy 38.1 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "051d74f0-eafb-4abf-a838-c4af10989673")
+		(uuid "0159ac2b-c5e1-47cd-8a53-fd01c41d4906")
 	)
 	(wire
 		(pts
@@ -577,53 +619,13 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 30.48) (xy 38.1 30.48)
+			(xy 132.08 86.36) (xy 134.62 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0a239ba7-1799-4521-a293-eaae92a5d022")
-	)
-	(wire
-		(pts
-			(xy 33.02 64.77) (xy 38.1 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f26ed3f-eaee-4b5a-9459-28f79318ac28")
-	)
-	(wire
-		(pts
-			(xy 33.02 53.34) (xy 38.1 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "107761c3-481c-4462-ac59-255c10affb93")
-	)
-	(wire
-		(pts
-			(xy 33.02 96.52) (xy 38.1 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16d0c37c-b67c-4591-8b74-a489a0e2f42b")
-	)
-	(wire
-		(pts
-			(xy 33.02 76.2) (xy 38.1 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19dfdd54-367a-4913-a8da-dcb6b450a9e2")
+		(uuid "0ad5f34e-6207-4d01-8db2-35ffb07adf02")
 	)
 	(wire
 		(pts
@@ -637,13 +639,23 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 62.23) (xy 38.1 62.23)
+			(xy 46.355 105.41) (xy 48.26 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2466f7bc-487e-4e53-826b-62ceff46253a")
+		(uuid "22e00f4a-9eec-441b-ae3d-196422e2ef51")
+	)
+	(wire
+		(pts
+			(xy 46.355 87.63) (xy 48.26 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "241a27a0-517d-46bb-a56b-86428586b37f")
 	)
 	(wire
 		(pts
@@ -667,26 +679,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 107.95) (xy 38.1 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2798370b-12d3-42b6-abf1-169bd22913d7")
-	)
-	(wire
-		(pts
-			(xy 33.02 99.06) (xy 38.1 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34431c94-7cdd-4066-a67e-f91fbf5c56ac")
-	)
-	(wire
-		(pts
 			(xy 78.74 60.96) (xy 78.74 64.77)
 		)
 		(stroke
@@ -697,23 +689,33 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 48.26) (xy 38.1 48.26)
+			(xy 98.425 83.82) (xy 100.33 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "34a303e8-b60d-4e89-ab3a-bcc5e9a420e0")
+		(uuid "3527c174-5c63-419b-b062-a852e8268735")
 	)
 	(wire
 		(pts
-			(xy 33.02 67.31) (xy 38.1 67.31)
+			(xy 70.485 107.315) (xy 72.39 107.315)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3a241784-9e05-4410-b84b-a0105b75e377")
+		(uuid "40481c45-1aa6-45ae-8c55-be49edbc9be3")
+	)
+	(wire
+		(pts
+			(xy 46.355 110.49) (xy 48.26 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "404c7522-cf1e-4771-be31-713975a8056a")
 	)
 	(wire
 		(pts
@@ -737,93 +739,43 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 25.4) (xy 38.1 25.4)
+			(xy 98.425 91.44) (xy 100.33 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4a9c3436-b315-4f22-9fb3-d03c92b48dcd")
+		(uuid "5eade176-21cb-4a36-a441-1c5b9cf9a503")
 	)
 	(wire
 		(pts
-			(xy 33.02 50.8) (xy 38.1 50.8)
+			(xy 132.715 98.425) (xy 134.62 98.425)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4ec7d7a7-080c-42ba-8abc-03fff81de711")
+		(uuid "620e94c3-41fd-4553-a941-7e741571452c")
 	)
 	(wire
 		(pts
-			(xy 33.02 33.02) (xy 38.1 33.02)
+			(xy 46.355 83.82) (xy 48.26 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "52d1867c-df30-4a79-b9b3-ace9fe7d9549")
+		(uuid "65e6b25f-5837-4bb8-a0e6-ccb27a05f65b")
 	)
 	(wire
 		(pts
-			(xy 33.02 39.37) (xy 38.1 39.37)
+			(xy 97.79 93.98) (xy 100.33 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "54f8470d-63e3-417c-a4c2-3b43786db0a7")
-	)
-	(wire
-		(pts
-			(xy 33.02 101.6) (xy 38.1 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58f3d4b2-d5e6-40dc-b9d2-71e3c4190096")
-	)
-	(wire
-		(pts
-			(xy 33.02 85.09) (xy 38.1 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60faaf4f-cb77-4c79-b352-da1c66fda2b9")
-	)
-	(wire
-		(pts
-			(xy 33.02 73.66) (xy 38.1 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6240d735-59b3-461a-97d8-829d3fe81aaa")
-	)
-	(wire
-		(pts
-			(xy 33.02 27.94) (xy 38.1 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "684aa32a-ad0e-45bb-b5f7-b915a4740a98")
-	)
-	(wire
-		(pts
-			(xy 33.02 55.88) (xy 38.1 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69dc21f2-9842-41b8-a044-2fb7d1d23341")
+		(uuid "6c334f83-ed51-46a2-b63a-de817b8e61f1")
 	)
 	(wire
 		(pts
@@ -837,33 +789,43 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 78.74) (xy 38.1 78.74)
+			(xy 132.715 83.82) (xy 134.62 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7c8c84b9-8d1d-4655-9003-0f2c1f58ff95")
+		(uuid "7bbc7080-3d69-4199-b31e-d63a37f260c1")
 	)
 	(wire
 		(pts
-			(xy 33.02 41.91) (xy 38.1 41.91)
+			(xy 70.485 102.87) (xy 72.39 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7f4f884c-9b66-44e1-9ed2-0e79958dcb0a")
+		(uuid "7f51242e-abb2-444e-96e8-ff9e0b0e74d8")
 	)
 	(wire
 		(pts
-			(xy 33.02 113.03) (xy 38.1 113.03)
+			(xy 97.79 100.965) (xy 100.33 100.965)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "89ccbb44-dae7-47c9-9976-2826b96ce6be")
+		(uuid "864cb8d2-baa9-4b08-81ac-42705b5c6db8")
+	)
+	(wire
+		(pts
+			(xy 132.715 91.44) (xy 134.62 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ee41e5c-5b3d-4cbd-9353-ccf644b6c079")
 	)
 	(wire
 		(pts
@@ -877,6 +839,16 @@
 	)
 	(wire
 		(pts
+			(xy 98.425 98.425) (xy 100.33 98.425)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "936193aa-6662-4208-ae24-847df0b8f89e")
+	)
+	(wire
+		(pts
 			(xy 106.68 60.96) (xy 106.68 64.77)
 		)
 		(stroke
@@ -884,6 +856,16 @@
 			(type default)
 		)
 		(uuid "93b3fe15-e72a-4f33-bd09-2d86ad24bec3")
+	)
+	(wire
+		(pts
+			(xy 97.79 107.95) (xy 100.33 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95fc921c-38df-44f2-a093-1260a2fbe5d9")
 	)
 	(wire
 		(pts
@@ -907,13 +889,23 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 87.63) (xy 38.1 87.63)
+			(xy 98.425 105.41) (xy 100.33 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a256a70c-d5be-4c59-a93e-a565d4496b15")
+		(uuid "9b6b8a92-93c7-4a6b-b234-136fff579ae0")
+	)
+	(wire
+		(pts
+			(xy 46.355 100.965) (xy 48.26 100.965)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a54e37e1-5ffd-4e7c-9e57-5a39bf4607f8")
 	)
 	(wire
 		(pts
@@ -924,16 +916,6 @@
 			(type default)
 		)
 		(uuid "a59fd7fb-94f4-497b-b7e8-00c8006041d4")
-	)
-	(wire
-		(pts
-			(xy 33.02 71.12) (xy 38.1 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6777c22-63ff-4b35-85ae-17aece6e8766")
 	)
 	(wire
 		(pts
@@ -957,33 +939,13 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 90.17) (xy 38.1 90.17)
+			(xy 132.08 107.95) (xy 134.62 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ab958b56-d189-47c5-970f-686527d66292")
-	)
-	(wire
-		(pts
-			(xy 33.02 36.83) (xy 38.1 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad06299b-28fb-4f7d-bc57-1168e7823f0d")
-	)
-	(wire
-		(pts
-			(xy 33.02 82.55) (xy 38.1 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6466c40-5fd5-4233-9ab4-49cfac6ff6f5")
+		(uuid "b55e7486-87ab-4023-9c75-79cb95f79986")
 	)
 	(wire
 		(pts
@@ -997,6 +959,36 @@
 	)
 	(wire
 		(pts
+			(xy 70.485 116.84) (xy 72.39 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "beb3814f-cec9-4a50-b6d3-10f49ace3c6b")
+	)
+	(wire
+		(pts
+			(xy 46.355 95.885) (xy 48.26 95.885)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0ca212e-578e-444d-b8de-cbed96a369f1")
+	)
+	(wire
+		(pts
+			(xy 70.485 93.345) (xy 72.39 93.345)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2907669-1bc2-4e62-b572-d83930f5e8ed")
+	)
+	(wire
+		(pts
 			(xy 119.38 60.96) (xy 119.38 64.77)
 		)
 		(stroke
@@ -1007,23 +999,53 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 44.45) (xy 38.1 44.45)
+			(xy 132.08 100.965) (xy 134.62 100.965)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cd763f1d-f31a-4a5f-87c7-c01aaddfcd0f")
+		(uuid "d027df03-5a62-447b-9c3c-46bf91e1de98")
 	)
 	(wire
 		(pts
-			(xy 33.02 105.41) (xy 38.1 105.41)
+			(xy 132.08 93.98) (xy 134.62 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d3d51954-af42-44c4-bd31-28fe543449da")
+		(uuid "d46aa5f4-0248-4ffc-b170-2777c7e2a6bc")
+	)
+	(wire
+		(pts
+			(xy 46.355 91.44) (xy 48.26 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d909df46-ad7c-4a54-93cd-bf58686bcbfd")
+	)
+	(wire
+		(pts
+			(xy 70.485 112.395) (xy 72.39 112.395)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dffa8f79-4770-47b9-84a2-86a154fb6f45")
+	)
+	(wire
+		(pts
+			(xy 70.485 97.79) (xy 72.39 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2b1bb78-c0a2-46ee-b955-1314162e64e5")
 	)
 	(wire
 		(pts
@@ -1037,16 +1059,46 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 110.49) (xy 38.1 110.49)
+			(xy 70.485 83.82) (xy 72.39 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f5233986-f92a-45d1-99a5-0264cb5885e0")
+		(uuid "e38f5924-64d9-4d0d-a79d-aeb0d01d73b8")
 	)
-	(label "VOLT1_7 +"
-		(at 33.02 101.6 180)
+	(wire
+		(pts
+			(xy 70.485 88.265) (xy 72.39 88.265)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e42026f6-4545-4d75-8f0c-c0271da25a55")
+	)
+	(wire
+		(pts
+			(xy 97.79 86.36) (xy 100.33 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e902be63-265a-4f5e-8157-54223537f9f3")
+	)
+	(wire
+		(pts
+			(xy 132.715 105.41) (xy 134.62 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "effb8e67-532e-4211-9131-47b2692d5a37")
+	)
+	(label "TEMP_5"
+		(at 132.715 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1054,10 +1106,10 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "05406d63-6801-44c7-8ebb-47d5cd02a1db")
+		(uuid "024907de-33e7-4f34-9cdf-8c628d433e6f")
 	)
-	(label "TEMP_3"
-		(at 33.02 50.8 180)
+	(label "TEMP_4"
+		(at 98.425 105.41 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1065,18 +1117,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "09830f75-4512-445f-924b-08a6773dbd2a")
-	)
-	(label "VOLT1_2 +"
-		(at 33.02 44.45 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0b9eb616-a8e6-49a6-b690-e0def1bc3184")
+		(uuid "0984f683-e748-4664-a69a-0e83a6955fa0")
 	)
 	(label "VOLT_1 -"
 		(at 101.6 64.77 270)
@@ -1088,6 +1129,28 @@
 			(justify right bottom)
 		)
 		(uuid "0d37de44-ac32-4c44-ac32-9ae208bcd0a6")
+	)
+	(label "TEMP_GND"
+		(at 132.08 107.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0eba3ebc-d83a-4a6a-a23e-38d7080adb1b")
+	)
+	(label "VOLT1_7 +"
+		(at 70.485 107.315 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "108f16af-c213-46ea-9224-0959650846c7")
 	)
 	(label "VOLT1_5 +"
 		(at 114.3 64.77 270)
@@ -1111,17 +1174,6 @@
 		)
 		(uuid "166513e1-75a1-4f47-b6fb-272105ece1b8")
 	)
-	(label "VOLT1_6 +"
-		(at 33.02 90.17 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "19631292-8639-4b81-a93d-c22f0efdd548")
-	)
 	(label "VOLT1_3 +"
 		(at 109.22 64.77 270)
 		(fields_autoplaced yes)
@@ -1132,28 +1184,6 @@
 			(justify right bottom)
 		)
 		(uuid "1a1a4f08-bee4-4d0a-b934-5518941b6c2d")
-	)
-	(label "TEMP_GND"
-		(at 33.02 110.49 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1beae075-a0d5-4f65-bad6-45c529b8356a")
-	)
-	(label "TEMP_8"
-		(at 33.02 107.95 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1f57817e-054e-4b3e-846f-acf9424a7dfd")
 	)
 	(label "TEMP_7"
 		(at 88.9 64.77 270)
@@ -1166,8 +1196,8 @@
 		)
 		(uuid "21ac21a2-9d03-4406-b05e-c58a91cd0e74")
 	)
-	(label "VOLT_2 -"
-		(at 33.02 36.83 180)
+	(label "VOLT_8 -"
+		(at 70.485 112.395 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1175,7 +1205,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "22b7f452-bbde-4353-a632-acc47a356faa")
+		(uuid "223504cd-754b-4838-be9b-9d208dd0177f")
 	)
 	(label "TEMP_GND"
 		(at 93.98 64.77 270)
@@ -1187,6 +1217,17 @@
 			(justify right bottom)
 		)
 		(uuid "29d0840a-2bd4-417e-82a8-a4a900da8d26")
+	)
+	(label "TEMP_6"
+		(at 132.715 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "32e44c6a-edf0-41a8-bd0c-eda0e28c29e2")
 	)
 	(label "TEMP_5"
 		(at 83.82 64.77 270)
@@ -1210,8 +1251,8 @@
 		)
 		(uuid "35cdf64b-b320-484a-9028-cffe8832589d")
 	)
-	(label "VOLT1_8 +"
-		(at 33.02 113.03 180)
+	(label "VOLT1_2 +"
+		(at 46.355 95.885 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1219,10 +1260,10 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "36a0d8f1-4c5f-4b27-b3e5-e52c1f0061e8")
+		(uuid "36a45b71-58fe-4194-b705-152b2f4d99b1")
 	)
-	(label "VOLT1_5 +"
-		(at 33.02 78.74 180)
+	(label "VOLT_4 -"
+		(at 46.355 110.49 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1230,7 +1271,18 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "3801e125-f2e4-4739-939a-d278c4c51ac2")
+		(uuid "42f564fa-c93e-4615-9d5d-c22ce2fcb21e")
+	)
+	(label "VOLT1_4 +"
+		(at 46.355 114.935 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "46bd6d2a-7c0b-45a0-afde-35b81c5a0dbf")
 	)
 	(label "TEMP_3"
 		(at 78.74 64.77 270)
@@ -1243,8 +1295,8 @@
 		)
 		(uuid "4a69af3c-09ee-41eb-a489-947ee6f3cc5b")
 	)
-	(label "VOLT_3 -"
-		(at 33.02 48.26 180)
+	(label "TEMP_GND"
+		(at 132.08 100.965 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1252,10 +1304,10 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "5090d75a-51b9-483e-82cc-f36a1547da3c")
+		(uuid "561fd734-1e3b-4fef-aa74-9a3c43317cdb")
 	)
-	(label "VOLT_7 -"
-		(at 33.02 93.98 180)
+	(label "TEMP_7"
+		(at 132.715 98.425 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1263,40 +1315,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "50c1a25a-677a-4815-b677-56e4e785b4fe")
-	)
-	(label "TEMP_4"
-		(at 33.02 62.23 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5aaae402-b814-4272-9761-4f655bd05602")
-	)
-	(label "VOLT1_3 +"
-		(at 33.02 55.88 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5fbc8eed-1ca0-4b44-971e-b5b53a8c1d31")
-	)
-	(label "VOLT1_1 +"
-		(at 33.02 33.02 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "60267301-00b1-48d5-84f9-101a983d7f19")
+		(uuid "620e5ab3-7353-4b13-965c-55b0413ce8c7")
 	)
 	(label "VOLT1_4 +"
 		(at 111.76 64.77 270)
@@ -1309,8 +1328,8 @@
 		)
 		(uuid "6214ef6d-08f8-46cf-bac2-fda7c1e522b8")
 	)
-	(label "TEMP_GND"
-		(at 33.02 30.48 180)
+	(label "VOLT1_6 +"
+		(at 70.485 97.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1318,10 +1337,10 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "6e66a124-a11c-45fa-823a-7c373f75b485")
+		(uuid "648bc444-44a4-4046-9f9f-746355677b23")
 	)
-	(label "TEMP_GND"
-		(at 33.02 64.77 180)
+	(label "VOLT_5 -"
+		(at 70.485 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1329,7 +1348,40 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "71203b4d-7660-4a01-be8a-a8d825455991")
+		(uuid "6e540bd1-774b-4a18-be06-f9a0270e0e01")
+	)
+	(label "VOLT_3 -"
+		(at 46.355 100.965 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6e6bc62f-e35d-4dbc-b5a9-10ae8c5daba9")
+	)
+	(label "VOLT_1 -"
+		(at 46.355 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6f3808a2-d8cd-4062-b02c-82714e003e8b")
+	)
+	(label "TEMP_3"
+		(at 98.425 98.425 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "700be6f5-1de6-4a35-b214-d93be0455a0b")
 	)
 	(label "VOLT1_1 +"
 		(at 104.14 64.77 270)
@@ -1343,7 +1395,7 @@
 		(uuid "768e991b-9b3a-4a48-8aad-369e6d08fedd")
 	)
 	(label "TEMP_GND"
-		(at 33.02 87.63 180)
+		(at 97.79 107.95 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1351,32 +1403,10 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "7945207a-223d-4ceb-8f46-aa7fd990c953")
-	)
-	(label "VOLT_1 -"
-		(at 33.02 25.4 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "79b919fb-bc92-43a3-844c-d2f442804f00")
-	)
-	(label "TEMP_7"
-		(at 33.02 96.52 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8d4ab57c-7109-44d3-9869-db0271041a17")
+		(uuid "7ccdbfdf-5f67-4475-8fb8-c422bf508fe4")
 	)
 	(label "TEMP_GND"
-		(at 33.02 41.91 180)
+		(at 97.79 100.965 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1384,10 +1414,10 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "8e19efa9-b2b4-4b09-9922-8f0243527b28")
+		(uuid "87347d6d-0799-4309-8c30-2be18c008810")
 	)
-	(label "TEMP_GND"
-		(at 33.02 53.34 180)
+	(label "VOLT1_8 +"
+		(at 70.485 116.84 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1395,10 +1425,10 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "91754731-082d-4c81-b971-8466f5a69192")
+		(uuid "92b67327-3098-4ccc-8dc1-f764b69273bf")
 	)
-	(label "TEMP_6"
-		(at 33.02 85.09 180)
+	(label "VOLT1_1 +"
+		(at 46.355 87.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1406,7 +1436,18 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "9c8088be-3f3c-4019-9940-e1dacab0d9f8")
+		(uuid "96f3d599-ed86-4de3-8f0e-ed16a8212fff")
+	)
+	(label "VOLT_2 -"
+		(at 46.355 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a153a59a-844b-429a-b653-b9e41e55f489")
 	)
 	(label "TEMP_2"
 		(at 76.2 64.77 270)
@@ -1419,8 +1460,8 @@
 		)
 		(uuid "a6296bbc-9002-48a1-b9cc-acaf319039c8")
 	)
-	(label "VOLT1_4 +"
-		(at 33.02 67.31 180)
+	(label "TEMP_GND"
+		(at 132.08 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1428,7 +1469,18 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "a8b759b9-510c-41d2-888d-e9e08c79fc99")
+		(uuid "aeaf087a-428f-470d-b621-67b2fa630f2f")
+	)
+	(label "VOLT1_3 +"
+		(at 46.355 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b9bdf4a8-f7a6-49cb-bca0-3296a5ca9feb")
 	)
 	(label "TEMP_8"
 		(at 91.44 64.77 270)
@@ -1441,6 +1493,17 @@
 		)
 		(uuid "bd4d391b-ef59-4100-a8fd-e5c229a37ed4")
 	)
+	(label "VOLT_7 -"
+		(at 70.485 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bd6c31ca-3c31-40b1-aa5a-c8c8c216df8f")
+	)
 	(label "TEMP_4"
 		(at 81.28 64.77 270)
 		(fields_autoplaced yes)
@@ -1452,8 +1515,8 @@
 		)
 		(uuid "bfb6d5a2-f531-447a-a81f-28f65ed49ccc")
 	)
-	(label "TEMP_GND"
-		(at 33.02 76.2 180)
+	(label "VOLT_6 -"
+		(at 70.485 93.345 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1461,7 +1524,18 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "c1e3f628-d689-4f74-9afe-51ff31584386")
+		(uuid "c201ae26-2588-4e61-9633-9738f06ec635")
+	)
+	(label "TEMP_2"
+		(at 98.425 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c2313888-3827-4c01-99fa-611dbb5efb73")
 	)
 	(label "VOLT1_8 +"
 		(at 121.92 64.77 270)
@@ -1473,6 +1547,17 @@
 			(justify right bottom)
 		)
 		(uuid "c4cee58e-2524-4e13-ae53-ce44113e0afa")
+	)
+	(label "TEMP_GND"
+		(at 97.79 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c576ecb1-971e-4ff1-a437-d1799afcc911")
 	)
 	(label "VOLT1_6 +"
 		(at 116.84 64.77 270)
@@ -1496,8 +1581,8 @@
 		)
 		(uuid "c8fb043d-91f6-4203-a589-93fdb0843bfe")
 	)
-	(label "TEMP_1"
-		(at 33.02 27.94 180)
+	(label "TEMP_8"
+		(at 132.715 105.41 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1505,40 +1590,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "caafc782-c968-4af4-b9de-8a77be465784")
-	)
-	(label "VOLT_4 -"
-		(at 33.02 59.69 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d93b1c4f-8baa-4d16-8124-cf94f6c195ab")
-	)
-	(label "TEMP_GND"
-		(at 33.02 99.06 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e27e2eb2-5393-440d-b4ad-405a24c81748")
-	)
-	(label "VOLT_8 -"
-		(at 33.02 105.41 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e4e2d818-cfec-4209-814e-b74cbf79cf0d")
+		(uuid "ca410c3f-f350-4551-8d02-c1c99c28d9e3")
 	)
 	(label "TEMP_1"
 		(at 73.66 64.77 270)
@@ -1551,8 +1603,8 @@
 		)
 		(uuid "e807de01-4a12-4178-b7f9-794bc507cba0")
 	)
-	(label "VOLT_5 -"
-		(at 33.02 71.12 180)
+	(label "TEMP_GND"
+		(at 132.08 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1560,10 +1612,10 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "eb5eb4cb-98b3-49e0-91c0-c1b5451ba8d1")
+		(uuid "ed5804b9-a8fa-47ad-8277-6f07570fbcca")
 	)
-	(label "TEMP_2"
-		(at 33.02 39.37 180)
+	(label "TEMP_GND"
+		(at 97.79 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1571,10 +1623,10 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "ec95e6ae-db35-48ff-a645-d6d16bf399ab")
+		(uuid "fc006fff-108a-4aac-a6b7-41f629d62f8d")
 	)
-	(label "VOLT_6 -"
-		(at 33.02 82.55 180)
+	(label "VOLT1_5 +"
+		(at 70.485 88.265 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1582,10 +1634,10 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "ee13d98f-efe1-45fb-8a02-b926f1834978")
+		(uuid "fcca4b80-3b86-40a6-b3a0-6f97698b2fbf")
 	)
-	(label "TEMP_5"
-		(at 33.02 73.66 180)
+	(label "TEMP_1"
+		(at 98.425 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1593,36 +1645,39 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "fa4d6d96-bc0f-4461-b46f-00adc1a8bcf3")
+		(uuid "ff9f05d7-8663-4f8d-834e-0d350a05f6ad")
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 43.18 39.37 0)
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 77.47 112.395 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "096a7528-7272-4bef-a88f-db45ac162159")
-		(property "Reference" "J2"
-			(at 46.99 40.64 90)
+		(uuid "0e02766b-6eef-42c3-9b06-1acd7a141a33")
+		(property "Reference" "J17"
+			(at 80.645 111.1249 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x04"
-			(at 49.53 40.64 90)
+		(property "Value" "Conn_01x01"
+			(at 80.645 113.6649 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "footprints:CONN_S4B-PH-K-S_JST"
-			(at 43.18 39.37 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopOnly"
+			(at 77.47 112.395 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1631,7 +1686,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 39.37 0)
+			(at 77.47 112.395 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1639,26 +1694,85 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 43.18 39.37 0)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 77.47 112.395 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "3"
-			(uuid "5d91cad1-8555-41f8-a618-e9a7ba7fac35")
-		)
-		(pin "4"
-			(uuid "cd15b4a1-07fc-4937-813a-a6738a56071b")
-		)
-		(pin "2"
-			(uuid "acd992ce-7a3f-4b7e-bd39-ff62009bb1b2")
 		)
 		(pin "1"
-			(uuid "576efc24-0606-4f06-aafe-1bd1bb90f98c")
+			(uuid "d684cf14-3e75-4748-9c36-e3ce1037c7bc")
+		)
+		(instances
+			(project "Battery-SegmentPCB-A"
+				(path "/4c734560-430e-4436-a585-cee76e7030f6"
+					(reference "J17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 53.34 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1eb60adb-44a0-45c0-a29b-bc186a05461c")
+		(property "Reference" "J2"
+			(at 56.515 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 56.515 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopOnly"
+			(at 53.34 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 53.34 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5015f55c-b807-4108-a938-25f2562fe5ad")
 		)
 		(instances
 			(project "Battery-SegmentPCB-A"
@@ -1670,107 +1784,36 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 43.18 27.94 0)
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 53.34 95.885 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3c3592c6-9faa-4ba5-86e3-257b98b9a4b8")
-		(property "Reference" "J1"
-			(at 46.99 29.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x04"
-			(at 49.53 29.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:CONN_S4B-PH-K-S_JST"
-			(at 43.18 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 43.18 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 43.18 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "27434b59-6876-4bc7-a46b-b211c10bc802")
-		)
-		(pin "4"
-			(uuid "706e082b-68f0-4ff2-b910-3627b0e3d034")
-		)
-		(pin "2"
-			(uuid "a147ee60-1d7f-41aa-9b27-7a9ff1351a7b")
-		)
-		(pin "1"
-			(uuid "970678a7-8f1b-4e1e-b6ec-ee4a4b6f6426")
-		)
-		(instances
-			(project "Battery-SegmentPCB-A"
-				(path "/4c734560-430e-4436-a585-cee76e7030f6"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 43.18 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4d0c8ca0-3223-47b1-905d-3312d9c8449d")
+		(uuid "23899daf-3d15-4d80-90a7-1d9f61d95e1e")
 		(property "Reference" "J4"
-			(at 46.99 63.5 90)
+			(at 56.515 94.6149 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x04"
-			(at 49.53 63.5 90)
+		(property "Value" "Conn_01x01"
+			(at 56.515 97.1549 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "footprints:CONN_S4B-PH-K-S_JST"
-			(at 43.18 62.23 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopOnly"
+			(at 53.34 95.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1779,7 +1822,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 62.23 0)
+			(at 53.34 95.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1787,26 +1830,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 43.18 62.23 0)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 53.34 95.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "3"
-			(uuid "b2a6daf7-39d5-43fe-a7ef-2e60c0ae6006")
-		)
-		(pin "4"
-			(uuid "ac14b568-468e-4a79-a9b3-4c7258a89afd")
-		)
-		(pin "2"
-			(uuid "380fbe0f-486b-42e4-93e2-36f24a655bdb")
 		)
 		(pin "1"
-			(uuid "716d8f7c-c495-468b-81a9-561d04e5626d")
+			(uuid "e6b83da5-97d3-4fc0-84b0-430ae02d5f98")
 		)
 		(instances
 			(project "Battery-SegmentPCB-A"
@@ -1818,33 +1852,36 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 43.18 107.95 0)
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 77.47 93.345 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "579c16d0-1f64-4a70-9b1b-1c033e24e21b")
-		(property "Reference" "J8"
-			(at 46.99 109.22 90)
+		(uuid "2a611615-762d-4070-9c38-459a01dc50bd")
+		(property "Reference" "J13"
+			(at 80.645 92.0749 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x04"
-			(at 49.53 109.22 90)
+		(property "Value" "Conn_01x01"
+			(at 80.645 94.6149 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "footprints:CONN_S4B-PH-K-S_JST"
-			(at 43.18 107.95 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopOnly"
+			(at 77.47 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1853,7 +1890,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 107.95 0)
+			(at 77.47 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1861,64 +1898,58 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 43.18 107.95 0)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 77.47 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "3"
-			(uuid "60dde34b-eb79-40bb-816b-708afaf173ee")
-		)
-		(pin "4"
-			(uuid "bf2345d9-efca-4445-a44b-f4fd5d4a1df3")
-		)
-		(pin "2"
-			(uuid "4aa8d939-c313-49bd-998c-fa4bb5b684cd")
 		)
 		(pin "1"
-			(uuid "afd418cb-3ca0-4131-a513-b1628bc0c64d")
+			(uuid "7c86d6f5-1b56-4e8d-97da-5433383fef3a")
 		)
 		(instances
 			(project "Battery-SegmentPCB-A"
 				(path "/4c734560-430e-4436-a585-cee76e7030f6"
-					(reference "J8")
+					(reference "J13")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 43.18 50.8 0)
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 53.34 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5f2b3027-1fee-47af-8d21-bec297e70806")
-		(property "Reference" "J3"
-			(at 46.99 52.07 90)
+		(uuid "2e57d1d2-e0a1-4e45-b5e4-a200a61d4914")
+		(property "Reference" "J1"
+			(at 56.515 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x04"
-			(at 49.53 52.07 90)
+		(property "Value" "Conn_01x01"
+			(at 56.515 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "footprints:CONN_S4B-PH-K-S_JST"
-			(at 43.18 50.8 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopOnly"
+			(at 53.34 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1927,7 +1958,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 50.8 0)
+			(at 53.34 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1935,64 +1966,58 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 43.18 50.8 0)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 53.34 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "3"
-			(uuid "01775846-81d0-4a84-9fa5-27be02e47fce")
-		)
-		(pin "4"
-			(uuid "9c23e7c9-dc84-4000-8c46-967ad5335a8e")
-		)
-		(pin "2"
-			(uuid "4460f575-995f-4373-88c1-b77e8c0ecc61")
 		)
 		(pin "1"
-			(uuid "b258cc55-8623-4160-9dd7-786b3753c093")
+			(uuid "94da2db3-4b0a-41f0-b81c-cb0cc8f9339a")
 		)
 		(instances
 			(project "Battery-SegmentPCB-A"
 				(path "/4c734560-430e-4436-a585-cee76e7030f6"
-					(reference "J3")
+					(reference "J1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 43.18 96.52 0)
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 77.47 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "66f156bd-f52b-46fa-9e26-dc527b25b465")
-		(property "Reference" "J7"
-			(at 46.99 97.79 90)
+		(uuid "2f47f6d4-ebd8-4397-a202-ecbed302b24a")
+		(property "Reference" "J15"
+			(at 80.645 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x04"
-			(at 49.53 97.79 90)
+		(property "Value" "Conn_01x01"
+			(at 80.645 104.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "footprints:CONN_S4B-PH-K-S_JST"
-			(at 43.18 96.52 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopOnly"
+			(at 77.47 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2001,7 +2026,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 96.52 0)
+			(at 77.47 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2009,64 +2034,58 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 43.18 96.52 0)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 77.47 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "3"
-			(uuid "e3a8815f-df86-4eef-9675-8ba1a0cd7985")
-		)
-		(pin "4"
-			(uuid "e01f461c-e953-4288-a2bf-cb4b36b4df1d")
-		)
-		(pin "2"
-			(uuid "1ea1365c-8973-497e-9a3e-60268f0e04a6")
 		)
 		(pin "1"
-			(uuid "f08d2efe-4442-4438-854f-9b044540da81")
+			(uuid "daabc940-ec0d-4944-a209-b340643e0ca1")
 		)
 		(instances
 			(project "Battery-SegmentPCB-A"
 				(path "/4c734560-430e-4436-a585-cee76e7030f6"
-					(reference "J7")
+					(reference "J15")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 43.18 73.66 0)
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 53.34 100.965 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "72b9cb3f-a7cb-4a84-a755-e27fdbdcc55a")
+		(uuid "3a8b9206-bffb-42f0-a28a-0120b6075763")
 		(property "Reference" "J5"
-			(at 46.99 74.93 90)
+			(at 56.515 99.6949 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x04"
-			(at 49.53 74.93 90)
+		(property "Value" "Conn_01x01"
+			(at 56.515 102.2349 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "footprints:CONN_S4B-PH-K-S_JST"
-			(at 43.18 73.66 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopOnly"
+			(at 53.34 100.965 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2075,7 +2094,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 73.66 0)
+			(at 53.34 100.965 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2083,31 +2102,574 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 43.18 73.66 0)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 53.34 100.965 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "3"
-			(uuid "e87f6f16-c314-4382-a286-3b6d07fb82ca")
-		)
-		(pin "4"
-			(uuid "48e8a801-ad2a-474b-a577-847b7e33ee7d")
-		)
-		(pin "2"
-			(uuid "6fe825c2-64de-4f61-b3df-babffd8890a0")
 		)
 		(pin "1"
-			(uuid "3ff836f7-4bd6-4485-8f02-f0265b220f43")
+			(uuid "8c1cd051-a246-47d9-aaf0-4d84d3ba3ab6")
 		)
 		(instances
 			(project "Battery-SegmentPCB-A"
 				(path "/4c734560-430e-4436-a585-cee76e7030f6"
 					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 105.41 98.425 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "44263ed0-f792-4f3a-8026-6765f3dd31c6")
+		(property "Reference" "J21"
+			(at 107.95 98.4249 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 107.95 100.9649 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Nano-Fit_105309-xx02_1x02_P2.50mm_Vertical"
+			(at 105.41 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 105.41 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cdc5e110-461f-4724-ac8d-f371d8cf9ff0")
+		)
+		(pin "2"
+			(uuid "79a09b0f-e3f4-4a37-a62b-fb032c9b79a3")
+		)
+		(instances
+			(project "Battery-SegmentPCB-A"
+				(path "/4c734560-430e-4436-a585-cee76e7030f6"
+					(reference "J21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 105.41 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4522982a-be01-42e5-9d6e-c235abe79d28")
+		(property "Reference" "J22"
+			(at 107.95 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 107.95 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Nano-Fit_105309-xx02_1x02_P2.50mm_Vertical"
+			(at 105.41 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 105.41 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b9ea346-0944-4009-a893-0f6a4f96a420")
+		)
+		(pin "2"
+			(uuid "a1028e24-10ed-4e25-9de2-2464bd73c96e")
+		)
+		(instances
+			(project "Battery-SegmentPCB-A"
+				(path "/4c734560-430e-4436-a585-cee76e7030f6"
+					(reference "J22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 105.41 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "595ba89c-2026-4718-b564-a063d06b98e4")
+		(property "Reference" "J20"
+			(at 107.95 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 107.95 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Nano-Fit_105309-xx02_1x02_P2.50mm_Vertical"
+			(at 105.41 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 105.41 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e9a2161c-8160-4bca-a466-6fc02897daac")
+		)
+		(pin "2"
+			(uuid "35775e4a-7e4c-407f-8e33-af5e4c7008d0")
+		)
+		(instances
+			(project "Battery-SegmentPCB-A"
+				(path "/4c734560-430e-4436-a585-cee76e7030f6"
+					(reference "J20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 77.47 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71717d4f-359f-4e7d-9e99-5298c7e2a0e6")
+		(property "Reference" "J14"
+			(at 80.645 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 80.645 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopOnly"
+			(at 77.47 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 77.47 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a5274953-700b-4a8f-bed0-f9ea1fa7f387")
+		)
+		(instances
+			(project "Battery-SegmentPCB-A"
+				(path "/4c734560-430e-4436-a585-cee76e7030f6"
+					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 77.47 107.315 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80abcb2a-36fd-464a-8091-dcacfc0f0f79")
+		(property "Reference" "J16"
+			(at 80.645 106.0449 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 80.645 108.5849 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopOnly"
+			(at 77.47 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 77.47 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee205990-393c-498c-96a0-0bd07e4f1a3f")
+		)
+		(instances
+			(project "Battery-SegmentPCB-A"
+				(path "/4c734560-430e-4436-a585-cee76e7030f6"
+					(reference "J16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 105.41 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84655635-7269-4bb2-a541-a251356c37a0")
+		(property "Reference" "J19"
+			(at 107.95 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 107.95 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Nano-Fit_105309-xx02_1x02_P2.50mm_Vertical"
+			(at 105.41 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 105.41 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7853bd48-382b-4d83-9d91-af735a3c1283")
+		)
+		(pin "2"
+			(uuid "9b76814c-be7c-47e6-9113-f2935c9dd222")
+		)
+		(instances
+			(project "Battery-SegmentPCB-A"
+				(path "/4c734560-430e-4436-a585-cee76e7030f6"
+					(reference "J19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 77.47 88.265 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87ecfddc-f299-4cfa-b1a1-02a1cc411e2b")
+		(property "Reference" "J12"
+			(at 80.645 86.9949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 80.645 89.5349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopOnly"
+			(at 77.47 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 77.47 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f15cf457-a9c6-4307-965e-61106c9b731b")
+		)
+		(instances
+			(project "Battery-SegmentPCB-A"
+				(path "/4c734560-430e-4436-a585-cee76e7030f6"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 53.34 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c1341b1-65fa-4e9e-aafe-6a0420594923")
+		(property "Reference" "J3"
+			(at 56.515 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 56.515 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopOnly"
+			(at 53.34 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 53.34 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f7c4de4d-3874-44d3-826a-cc928dd2ea67")
+		)
+		(instances
+			(project "Battery-SegmentPCB-A"
+				(path "/4c734560-430e-4436-a585-cee76e7030f6"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -2203,6 +2765,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 77.47 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9bed8754-f8e7-4cfd-a91d-8e84990ab14d")
+		(property "Reference" "J18"
+			(at 80.645 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 80.645 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopOnly"
+			(at 77.47 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 77.47 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "21d1ad41-2253-4128-90d7-56b8e870b39a")
+		)
+		(instances
+			(project "Battery-SegmentPCB-A"
+				(path "/4c734560-430e-4436-a585-cee76e7030f6"
+					(reference "J18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x09")
 		(at 111.76 55.88 90)
 		(unit 1)
@@ -2292,33 +2922,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 43.18 85.09 0)
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 139.7 98.425 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "aa4004c1-af7e-46c5-91d5-d22aafadad7b")
-		(property "Reference" "J6"
-			(at 46.99 86.36 90)
+		(uuid "a6d53821-4b12-4ebb-8bdd-286d52fc03e2")
+		(property "Reference" "J25"
+			(at 142.24 98.4249 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x04"
-			(at 49.53 86.36 90)
+		(property "Value" "Conn_01x02"
+			(at 142.24 100.9649 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:CONN_S4B-PH-K-S_JST"
-			(at 43.18 85.09 0)
+		(property "Footprint" "Connector_Molex:Molex_Nano-Fit_105309-xx02_1x02_P2.50mm_Vertical"
+			(at 139.7 98.425 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2327,7 +2959,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 85.09 0)
+			(at 139.7 98.425 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2335,31 +2967,507 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 43.18 85.09 0)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 139.7 98.425 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "3"
-			(uuid "e5d1be2c-5ccd-43c6-ab19-c93ac2b3922a")
-		)
-		(pin "4"
-			(uuid "18b95a38-b276-440f-9277-ed64ca786fdc")
-		)
-		(pin "2"
-			(uuid "a81af32f-2f51-4930-9bdf-c3e804791dd4")
 		)
 		(pin "1"
-			(uuid "90680725-c3dd-448f-8ab9-e5e7ec794e9f")
+			(uuid "3f769821-3148-47bd-a62e-4707847df52c")
+		)
+		(pin "2"
+			(uuid "ee85b33f-1483-482d-91ff-b50ca5f0564e")
+		)
+		(instances
+			(project "Battery-SegmentPCB-A"
+				(path "/4c734560-430e-4436-a585-cee76e7030f6"
+					(reference "J25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 53.34 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a85866c3-b247-4839-8cb2-d736cdaac0cc")
+		(property "Reference" "J6"
+			(at 56.515 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 56.515 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopOnly"
+			(at 53.34 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 53.34 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c22f2c9-bfa2-4248-bf40-5b445feeda4f")
 		)
 		(instances
 			(project "Battery-SegmentPCB-A"
 				(path "/4c734560-430e-4436-a585-cee76e7030f6"
 					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 53.34 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "afcc38cb-05af-47c6-8cc5-6e2c3b0c0fa6")
+		(property "Reference" "J7"
+			(at 56.515 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 56.515 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopOnly"
+			(at 53.34 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 53.34 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b6966e7-0bb1-4cd4-932a-cdda550e2f84")
+		)
+		(instances
+			(project "Battery-SegmentPCB-A"
+				(path "/4c734560-430e-4436-a585-cee76e7030f6"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 77.47 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be3a7f66-fee5-4172-9b9a-e198358f1528")
+		(property "Reference" "J11"
+			(at 80.645 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 80.645 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopOnly"
+			(at 77.47 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 77.47 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9320b208-888a-45a4-b1c6-c1f80a2bf946")
+		)
+		(instances
+			(project "Battery-SegmentPCB-A"
+				(path "/4c734560-430e-4436-a585-cee76e7030f6"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 139.7 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cdae6471-331d-44a7-a6f5-215087ab3f85")
+		(property "Reference" "J26"
+			(at 142.24 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 142.24 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Nano-Fit_105309-xx02_1x02_P2.50mm_Vertical"
+			(at 139.7 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 139.7 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "19744823-47d2-4d0b-8579-afa0ece7134a")
+		)
+		(pin "2"
+			(uuid "3b5e4f90-69ee-494b-ad7d-535d9ea57863")
+		)
+		(instances
+			(project "Battery-SegmentPCB-A"
+				(path "/4c734560-430e-4436-a585-cee76e7030f6"
+					(reference "J26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 139.7 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5d7d510-5985-47da-89bb-2a7caf3fc5a0")
+		(property "Reference" "J23"
+			(at 142.24 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 142.24 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Nano-Fit_105309-xx02_1x02_P2.50mm_Vertical"
+			(at 139.7 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 139.7 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ab8fabe-eb6e-4f40-a868-717cfb0c972e")
+		)
+		(pin "2"
+			(uuid "77635a37-99c2-4c1f-afff-42e6b1af5b28")
+		)
+		(instances
+			(project "Battery-SegmentPCB-A"
+				(path "/4c734560-430e-4436-a585-cee76e7030f6"
+					(reference "J23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 53.34 114.935 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9b7a95f-8b3b-4249-8707-e9fe4da3d084")
+		(property "Reference" "J8"
+			(at 56.515 113.6649 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 56.515 116.2049 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopOnly"
+			(at 53.34 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 53.34 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba88634d-ae59-40a0-8b0f-43a32bb57404")
+		)
+		(instances
+			(project "Battery-SegmentPCB-A"
+				(path "/4c734560-430e-4436-a585-cee76e7030f6"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 139.7 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ffe5e08f-a2f6-4d80-8102-7b56c3790a0d")
+		(property "Reference" "J24"
+			(at 142.24 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 142.24 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Nano-Fit_105309-xx02_1x02_P2.50mm_Vertical"
+			(at 139.7 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 139.7 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17f4f4fb-1bb1-44f1-a8ee-f5bd61250c25")
+		)
+		(pin "2"
+			(uuid "5de22134-4127-486e-9c10-81e6b98a265b")
+		)
+		(instances
+			(project "Battery-SegmentPCB-A"
+				(path "/4c734560-430e-4436-a585-cee76e7030f6"
+					(reference "J24")
 					(unit 1)
 				)
 			)
