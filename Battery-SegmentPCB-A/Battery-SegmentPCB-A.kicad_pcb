@@ -6860,16 +6860,6 @@
 		)
 		(embedded_fonts no)
 	)
-	(gr_line
-		(start 0 127.56875)
-		(end 0 121.999102)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Cmts.User")
-		(uuid "d2c9f39e-bc15-47bd-8f41-ccda794d0e56")
-	)
 	(gr_circle
 		(center 314.46 127.56875)
 		(end 316.06 127.56875)
