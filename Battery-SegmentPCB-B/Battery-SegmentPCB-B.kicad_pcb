@@ -4861,6 +4861,7 @@
 		(property "Reference" "J8"
 			(at 0 -3.8 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "8eb4cfba-9d9b-4197-9aeb-0becbf6adf84")
 			(effects
 				(font
