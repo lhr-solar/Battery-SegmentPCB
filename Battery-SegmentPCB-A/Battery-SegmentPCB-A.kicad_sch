@@ -605,16 +605,155 @@
 			)
 			(embedded_fonts no)
 		)
-	)
-	(wire
-		(pts
-			(xy 46.355 114.935) (xy 48.26 114.935)
+		(symbol "Device:Polyfuse_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at -1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Polyfuse_Small"
+				(at 1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resettable fuse PTC PPTC polyfuse polyswitch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*polyfuse* *PTC*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Polyfuse_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.016 1.27) (xy -1.016 0.762) (xy 1.016 -0.762) (xy 1.016 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.508 1.27)
+					(end 0.508 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Polyfuse_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.635)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.635)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
 		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0159ac2b-c5e1-47cd-8a53-fd01c41d4906")
 	)
 	(wire
 		(pts
@@ -648,23 +787,43 @@
 	)
 	(wire
 		(pts
-			(xy 46.355 105.41) (xy 48.26 105.41)
+			(xy 39.37 95.885) (xy 40.64 95.885)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "22e00f4a-9eec-441b-ae3d-196422e2ef51")
+		(uuid "1b3bcecb-c0c2-43ae-919d-b0e4c4627692")
 	)
 	(wire
 		(pts
-			(xy 46.355 87.63) (xy 48.26 87.63)
+			(xy 65.405 97.79) (xy 66.04 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "241a27a0-517d-46bb-a56b-86428586b37f")
+		(uuid "1e6868f3-dbcc-43d8-af4d-ce1575024865")
+	)
+	(wire
+		(pts
+			(xy 38.735 105.41) (xy 40.64 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fec21c4-efea-4185-8a8b-fa132737d6d4")
+	)
+	(wire
+		(pts
+			(xy 65.405 88.265) (xy 66.04 88.265)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23d8e580-0928-439c-9c97-06487bf62426")
 	)
 	(wire
 		(pts
@@ -708,17 +867,7 @@
 	)
 	(wire
 		(pts
-			(xy 70.485 107.315) (xy 72.39 107.315)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40481c45-1aa6-45ae-8c55-be49edbc9be3")
-	)
-	(wire
-		(pts
-			(xy 46.355 110.49) (xy 48.26 110.49)
+			(xy 32.385 110.49) (xy 40.64 110.49)
 		)
 		(stroke
 			(width 0)
@@ -748,6 +897,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 88.265) (xy 72.39 88.265)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e44877b-3e93-4f95-a068-814389eea67c")
+	)
+	(wire
+		(pts
 			(xy 98.425 91.44) (xy 100.33 91.44)
 		)
 		(stroke
@@ -768,7 +927,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.355 83.82) (xy 48.26 83.82)
+			(xy 32.385 83.82) (xy 40.64 83.82)
 		)
 		(stroke
 			(width 0)
@@ -808,7 +967,17 @@
 	)
 	(wire
 		(pts
-			(xy 70.485 102.87) (xy 72.39 102.87)
+			(xy 32.385 105.41) (xy 33.655 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d56b29b-b5fe-4101-b9b8-e10d20e9197b")
+	)
+	(wire
+		(pts
+			(xy 65.405 102.87) (xy 72.39 102.87)
 		)
 		(stroke
 			(width 0)
@@ -825,6 +994,16 @@
 			(type default)
 		)
 		(uuid "864cb8d2-baa9-4b08-81ac-42705b5c6db8")
+	)
+	(wire
+		(pts
+			(xy 65.405 116.84) (xy 66.675 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dc9b350-ab3d-449c-8d81-075a9409f012")
 	)
 	(wire
 		(pts
@@ -845,6 +1024,16 @@
 			(type default)
 		)
 		(uuid "8ef9831d-d920-4942-be3f-c3ebf68e2371")
+	)
+	(wire
+		(pts
+			(xy 39.37 114.935) (xy 40.64 114.935)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92b4ea53-7b6d-45fd-ab41-08b4500978ee")
 	)
 	(wire
 		(pts
@@ -908,7 +1097,37 @@
 	)
 	(wire
 		(pts
-			(xy 46.355 100.965) (xy 48.26 100.965)
+			(xy 71.755 116.84) (xy 72.39 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e21c857-1445-4302-8716-811c3306d4d2")
+	)
+	(wire
+		(pts
+			(xy 32.385 87.63) (xy 34.29 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e39ff69-ae04-4bd5-ab96-33c15dbdf794")
+	)
+	(wire
+		(pts
+			(xy 65.405 107.315) (xy 66.675 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a25e8a78-236c-4b5c-a337-8ef5d6fdd160")
+	)
+	(wire
+		(pts
+			(xy 32.385 100.965) (xy 40.64 100.965)
 		)
 		(stroke
 			(width 0)
@@ -968,27 +1187,7 @@
 	)
 	(wire
 		(pts
-			(xy 70.485 116.84) (xy 72.39 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "beb3814f-cec9-4a50-b6d3-10f49ace3c6b")
-	)
-	(wire
-		(pts
-			(xy 46.355 95.885) (xy 48.26 95.885)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0ca212e-578e-444d-b8de-cbed96a369f1")
-	)
-	(wire
-		(pts
-			(xy 70.485 93.345) (xy 72.39 93.345)
+			(xy 65.405 93.345) (xy 72.39 93.345)
 		)
 		(stroke
 			(width 0)
@@ -1005,6 +1204,36 @@
 			(type default)
 		)
 		(uuid "c4faf409-309e-4886-89b4-e75c26ea91ec")
+	)
+	(wire
+		(pts
+			(xy 32.385 95.885) (xy 34.29 95.885)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c59c6685-65b7-4a1e-817c-65ad53dfefdd")
+	)
+	(wire
+		(pts
+			(xy 39.37 87.63) (xy 40.64 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccba19eb-4f93-4563-bbbb-2ecbb24d3021")
+	)
+	(wire
+		(pts
+			(xy 71.755 107.315) (xy 72.39 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cecec4dd-6241-44ea-8c2e-cfb7a92aab9c")
 	)
 	(wire
 		(pts
@@ -1028,7 +1257,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.355 91.44) (xy 48.26 91.44)
+			(xy 32.385 91.44) (xy 40.64 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1038,23 +1267,13 @@
 	)
 	(wire
 		(pts
-			(xy 70.485 112.395) (xy 72.39 112.395)
+			(xy 65.405 112.395) (xy 72.39 112.395)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "dffa8f79-4770-47b9-84a2-86a154fb6f45")
-	)
-	(wire
-		(pts
-			(xy 70.485 97.79) (xy 72.39 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2b1bb78-c0a2-46ee-b955-1314162e64e5")
 	)
 	(wire
 		(pts
@@ -1068,23 +1287,13 @@
 	)
 	(wire
 		(pts
-			(xy 70.485 83.82) (xy 72.39 83.82)
+			(xy 65.405 83.82) (xy 72.39 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e38f5924-64d9-4d0d-a79d-aeb0d01d73b8")
-	)
-	(wire
-		(pts
-			(xy 70.485 88.265) (xy 72.39 88.265)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e42026f6-4545-4d75-8f0c-c0271da25a55")
 	)
 	(wire
 		(pts
@@ -1105,6 +1314,26 @@
 			(type default)
 		)
 		(uuid "effb8e67-532e-4211-9131-47b2692d5a37")
+	)
+	(wire
+		(pts
+			(xy 71.12 97.79) (xy 72.39 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f997b612-6893-437e-84a6-8b683a497b0b")
+	)
+	(wire
+		(pts
+			(xy 32.385 114.935) (xy 34.29 114.935)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9b846a8-6bdf-4728-8267-62ae5776149a")
 	)
 	(label "TEMP_5"
 		(at 132.715 83.82 180)
@@ -1147,7 +1376,7 @@
 		(uuid "0eba3ebc-d83a-4a6a-a23e-38d7080adb1b")
 	)
 	(label "VOLT1_7 +"
-		(at 70.485 107.315 180)
+		(at 65.405 107.315 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1197,7 +1426,7 @@
 		(uuid "21ac21a2-9d03-4406-b05e-c58a91cd0e74")
 	)
 	(label "VOLT_8 -"
-		(at 70.485 112.395 180)
+		(at 65.405 112.395 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1247,7 +1476,7 @@
 		(uuid "35cdf64b-b320-484a-9028-cffe8832589d")
 	)
 	(label "VOLT1_2 +"
-		(at 46.355 95.885 180)
+		(at 32.385 95.885 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1257,7 +1486,7 @@
 		(uuid "36a45b71-58fe-4194-b705-152b2f4d99b1")
 	)
 	(label "VOLT_4 -"
-		(at 46.355 110.49 180)
+		(at 32.385 110.49 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1267,7 +1496,7 @@
 		(uuid "42f564fa-c93e-4615-9d5d-c22ce2fcb21e")
 	)
 	(label "VOLT1_4 +"
-		(at 46.355 114.935 180)
+		(at 32.385 114.935 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1317,7 +1546,7 @@
 		(uuid "6214ef6d-08f8-46cf-bac2-fda7c1e522b8")
 	)
 	(label "VOLT1_6 +"
-		(at 70.485 97.79 180)
+		(at 65.405 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1327,7 +1556,7 @@
 		(uuid "648bc444-44a4-4046-9f9f-746355677b23")
 	)
 	(label "VOLT_5 -"
-		(at 70.485 83.82 180)
+		(at 65.405 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1337,7 +1566,7 @@
 		(uuid "6e540bd1-774b-4a18-be06-f9a0270e0e01")
 	)
 	(label "VOLT_3 -"
-		(at 46.355 100.965 180)
+		(at 32.385 100.965 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1347,7 +1576,7 @@
 		(uuid "6e6bc62f-e35d-4dbc-b5a9-10ae8c5daba9")
 	)
 	(label "VOLT_1 -"
-		(at 46.355 83.82 180)
+		(at 32.385 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1397,7 +1626,7 @@
 		(uuid "87347d6d-0799-4309-8c30-2be18c008810")
 	)
 	(label "VOLT1_8 +"
-		(at 70.485 116.84 180)
+		(at 65.405 116.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1407,7 +1636,7 @@
 		(uuid "92b67327-3098-4ccc-8dc1-f764b69273bf")
 	)
 	(label "VOLT1_1 +"
-		(at 46.355 87.63 180)
+		(at 32.385 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1417,7 +1646,7 @@
 		(uuid "96f3d599-ed86-4de3-8f0e-ed16a8212fff")
 	)
 	(label "VOLT_2 -"
-		(at 46.355 91.44 180)
+		(at 32.385 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1447,7 +1676,7 @@
 		(uuid "aeaf087a-428f-470d-b621-67b2fa630f2f")
 	)
 	(label "VOLT1_3 +"
-		(at 46.355 105.41 180)
+		(at 32.385 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1467,7 +1696,7 @@
 		(uuid "bd4d391b-ef59-4100-a8fd-e5c229a37ed4")
 	)
 	(label "VOLT_7 -"
-		(at 70.485 102.87 180)
+		(at 65.405 102.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1487,7 +1716,7 @@
 		(uuid "bfb6d5a2-f531-447a-a81f-28f65ed49ccc")
 	)
 	(label "VOLT_6 -"
-		(at 70.485 93.345 180)
+		(at 65.405 93.345 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1587,7 +1816,7 @@
 		(uuid "fc006fff-108a-4aac-a6b7-41f629d62f8d")
 	)
 	(label "VOLT1_5 +"
-		(at 70.485 88.265 180)
+		(at 65.405 88.265 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1675,8 +1904,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Polyfuse_Small")
+		(at 69.215 116.84 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1cf61164-312c-497a-b84f-a89d9b2b43b6")
+		(property "Reference" "F44"
+			(at 66.675 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PTC Fuse"
+			(at 60.325 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "footprints:FUSC1810X100N"
+			(at 74.295 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.215 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
+			(at 69.215 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "PTSLR06038V075"
+			(at 69.215 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb48c847-0174-457f-a6a9-c8422d9da41b")
+		)
+		(pin "2"
+			(uuid "d16dc81b-7318-483d-af08-d7463d61c29e")
+		)
+		(instances
+			(project "Battery-SegmentPCB-A"
+				(path "/4c734560-430e-4436-a585-cee76e7030f6"
+					(reference "F44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 53.34 87.63 0)
+		(at 45.72 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1685,7 +1993,7 @@
 		(fields_autoplaced yes)
 		(uuid "1eb60adb-44a0-45c0-a29b-bc186a05461c")
 		(property "Reference" "J2"
-			(at 56.515 86.3599 0)
+			(at 48.895 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1694,7 +2002,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 56.515 88.8999 0)
+			(at 48.895 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1704,7 +2012,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopOnly"
-			(at 53.34 87.63 0)
+			(at 45.72 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1713,7 +2021,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 53.34 87.63 0)
+			(at 45.72 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1722,7 +2030,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 53.34 87.63 0)
+			(at 45.72 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1744,7 +2052,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 53.34 95.885 0)
+		(at 45.72 95.885 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1753,7 +2061,7 @@
 		(fields_autoplaced yes)
 		(uuid "23899daf-3d15-4d80-90a7-1d9f61d95e1e")
 		(property "Reference" "J4"
-			(at 56.515 94.6149 0)
+			(at 48.895 94.6149 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1762,7 +2070,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 56.515 97.1549 0)
+			(at 48.895 97.1549 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1772,7 +2080,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopOnly"
-			(at 53.34 95.885 0)
+			(at 45.72 95.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1781,7 +2089,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 53.34 95.885 0)
+			(at 45.72 95.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1790,7 +2098,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 53.34 95.885 0)
+			(at 45.72 95.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1880,7 +2188,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 53.34 83.82 0)
+		(at 45.72 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1889,7 +2197,7 @@
 		(fields_autoplaced yes)
 		(uuid "2e57d1d2-e0a1-4e45-b5e4-a200a61d4914")
 		(property "Reference" "J1"
-			(at 56.515 82.5499 0)
+			(at 48.895 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1898,7 +2206,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 56.515 85.0899 0)
+			(at 48.895 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1908,7 +2216,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopOnly"
-			(at 53.34 83.82 0)
+			(at 45.72 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1917,7 +2225,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 53.34 83.82 0)
+			(at 45.72 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1926,7 +2234,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 53.34 83.82 0)
+			(at 45.72 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2015,8 +2323,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Polyfuse_Small")
+		(at 36.195 105.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "380ff0bc-3c7d-4440-a1ef-19c3ea46bdb3")
+		(property "Reference" "F39"
+			(at 33.655 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PTC Fuse"
+			(at 27.305 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "footprints:FUSC1810X100N"
+			(at 41.275 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 36.195 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
+			(at 36.195 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "PTSLR06038V075"
+			(at 36.195 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4fe52cf0-41af-4d0e-874c-614fcaaba7cd")
+		)
+		(pin "2"
+			(uuid "060b2e24-796d-4579-b045-e6747c69f7f9")
+		)
+		(instances
+			(project "Battery-SegmentPCB-A"
+				(path "/4c734560-430e-4436-a585-cee76e7030f6"
+					(reference "F39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 53.34 100.965 0)
+		(at 45.72 100.965 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2025,7 +2412,7 @@
 		(fields_autoplaced yes)
 		(uuid "3a8b9206-bffb-42f0-a28a-0120b6075763")
 		(property "Reference" "J5"
-			(at 56.515 99.6949 0)
+			(at 48.895 99.6949 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2034,7 +2421,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 56.515 102.2349 0)
+			(at 48.895 102.2349 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2044,7 +2431,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopOnly"
-			(at 53.34 100.965 0)
+			(at 45.72 100.965 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2053,7 +2440,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 53.34 100.965 0)
+			(at 45.72 100.965 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2062,7 +2449,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 53.34 100.965 0)
+			(at 45.72 100.965 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2110,7 +2497,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Nano-Fit_105309-xx02_1x02_P2.50mm_Vertical"
+		(property "Footprint" "UTSVT_Connectors:105313-2102"
 			(at 105.41 98.425 0)
 			(effects
 				(font
@@ -2180,7 +2567,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Nano-Fit_105309-xx02_1x02_P2.50mm_Vertical"
+		(property "Footprint" "UTSVT_Connectors:105313-2102"
 			(at 105.41 105.41 0)
 			(effects
 				(font
@@ -2223,6 +2610,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Polyfuse_Small")
+		(at 68.58 88.265 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4d45b605-3ebc-4469-b048-8bed0dfa2c65")
+		(property "Reference" "F41"
+			(at 66.04 89.535 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PTC Fuse"
+			(at 59.69 89.535 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "footprints:FUSC1810X100N"
+			(at 73.66 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
+			(at 68.58 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "PTSLR06038V075"
+			(at 68.58 88.265 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "12946d94-1991-4465-89e7-fda202d5d4b2")
+		)
+		(pin "2"
+			(uuid "68d5ca78-09aa-4da7-9aa7-771f9f48b58d")
+		)
+		(instances
+			(project "Battery-SegmentPCB-A"
+				(path "/4c734560-430e-4436-a585-cee76e7030f6"
+					(reference "F41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 105.41 91.44 0)
 		(unit 1)
@@ -2250,7 +2716,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Nano-Fit_105309-xx02_1x02_P2.50mm_Vertical"
+		(property "Footprint" "UTSVT_Connectors:105313-2102"
 			(at 105.41 91.44 0)
 			(effects
 				(font
@@ -2361,6 +2827,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Polyfuse_Small")
+		(at 68.58 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "71b3b868-20ab-406c-a5af-93a812a6b140")
+		(property "Reference" "F42"
+			(at 66.04 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PTC Fuse"
+			(at 59.69 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "footprints:FUSC1810X100N"
+			(at 73.66 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
+			(at 68.58 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "PTSLR06038V075"
+			(at 68.58 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "519b9145-942c-4309-8af9-9d2d6f608c36")
+		)
+		(pin "2"
+			(uuid "101c9025-adfc-4aa7-bc6c-33db364b4898")
+		)
+		(instances
+			(project "Battery-SegmentPCB-A"
+				(path "/4c734560-430e-4436-a585-cee76e7030f6"
+					(reference "F42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
 		(at 77.47 107.315 0)
 		(unit 1)
@@ -2456,7 +3001,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Nano-Fit_105309-xx02_1x02_P2.50mm_Vertical"
+		(property "Footprint" "UTSVT_Connectors:105313-2102"
 			(at 105.41 83.82 0)
 			(effects
 				(font
@@ -2568,7 +3113,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 53.34 91.44 0)
+		(at 45.72 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2577,7 +3122,7 @@
 		(fields_autoplaced yes)
 		(uuid "8c1341b1-65fa-4e9e-aafe-6a0420594923")
 		(property "Reference" "J3"
-			(at 56.515 90.1699 0)
+			(at 48.895 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2586,7 +3131,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 56.515 92.7099 0)
+			(at 48.895 92.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2596,7 +3141,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopOnly"
-			(at 53.34 91.44 0)
+			(at 45.72 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2605,7 +3150,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 53.34 91.44 0)
+			(at 45.72 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2614,7 +3159,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 53.34 91.44 0)
+			(at 45.72 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2908,7 +3453,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Nano-Fit_105309-xx02_1x02_P2.50mm_Vertical"
+		(property "Footprint" "UTSVT_Connectors:105313-2102"
 			(at 139.7 98.425 0)
 			(effects
 				(font
@@ -2952,7 +3497,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 53.34 105.41 0)
+		(at 45.72 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2961,7 +3506,7 @@
 		(fields_autoplaced yes)
 		(uuid "a85866c3-b247-4839-8cb2-d736cdaac0cc")
 		(property "Reference" "J6"
-			(at 56.515 104.1399 0)
+			(at 48.895 104.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2970,7 +3515,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 56.515 106.6799 0)
+			(at 48.895 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2980,7 +3525,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopOnly"
-			(at 53.34 105.41 0)
+			(at 45.72 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2989,7 +3534,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 53.34 105.41 0)
+			(at 45.72 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2998,7 +3543,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 53.34 105.41 0)
+			(at 45.72 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3019,8 +3564,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Polyfuse_Small")
+		(at 69.215 107.315 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ae401df7-1dd6-4e0f-a848-f211f7ace0a7")
+		(property "Reference" "F43"
+			(at 66.675 108.585 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PTC Fuse"
+			(at 60.325 108.585 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "footprints:FUSC1810X100N"
+			(at 74.295 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.215 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
+			(at 69.215 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "PTSLR06038V075"
+			(at 69.215 107.315 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55a2a22f-5cc8-4823-88c3-48f46808159c")
+		)
+		(pin "2"
+			(uuid "21dbb1bc-d848-44ad-9b8e-319d7459578d")
+		)
+		(instances
+			(project "Battery-SegmentPCB-A"
+				(path "/4c734560-430e-4436-a585-cee76e7030f6"
+					(reference "F43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 53.34 110.49 0)
+		(at 45.72 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3029,7 +3653,7 @@
 		(fields_autoplaced yes)
 		(uuid "afcc38cb-05af-47c6-8cc5-6e2c3b0c0fa6")
 		(property "Reference" "J7"
-			(at 56.515 109.2199 0)
+			(at 48.895 109.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3038,7 +3662,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 56.515 111.7599 0)
+			(at 48.895 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3048,7 +3672,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopOnly"
-			(at 53.34 110.49 0)
+			(at 45.72 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3057,7 +3681,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 53.34 110.49 0)
+			(at 45.72 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3066,7 +3690,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 53.34 110.49 0)
+			(at 45.72 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3182,7 +3806,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Nano-Fit_105309-xx02_1x02_P2.50mm_Vertical"
+		(property "Footprint" "UTSVT_Connectors:105313-2102"
 			(at 139.7 105.41 0)
 			(effects
 				(font
@@ -3225,6 +3849,164 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Polyfuse_Small")
+		(at 36.83 87.63 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cf7299a2-273b-48fb-958b-de27ac405861")
+		(property "Reference" "F37"
+			(at 34.29 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PTC Fuse"
+			(at 27.94 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "footprints:FUSC1810X100N"
+			(at 41.91 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 36.83 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
+			(at 36.83 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "PTSLR06038V075"
+			(at 36.83 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36693ff4-1252-4dfc-86f7-1a9463edc8fd")
+		)
+		(pin "2"
+			(uuid "67c34289-9c79-4a3f-9501-2b52d6b06ec4")
+		)
+		(instances
+			(project "Battery-SegmentPCB-A"
+				(path "/4c734560-430e-4436-a585-cee76e7030f6"
+					(reference "F37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Polyfuse_Small")
+		(at 36.83 95.885 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dca2907e-4ead-4c4c-8ee3-cd0f5fb7188e")
+		(property "Reference" "F38"
+			(at 34.29 97.155 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PTC Fuse"
+			(at 27.94 97.155 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "footprints:FUSC1810X100N"
+			(at 41.91 94.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 36.83 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
+			(at 36.83 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "PTSLR06038V075"
+			(at 36.83 95.885 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ce70f72-fcd7-455e-8316-4b8ed3133a79")
+		)
+		(pin "2"
+			(uuid "53efb871-9a65-41af-b521-b881747ec100")
+		)
+		(instances
+			(project "Battery-SegmentPCB-A"
+				(path "/4c734560-430e-4436-a585-cee76e7030f6"
+					(reference "F38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 139.7 83.82 0)
 		(unit 1)
@@ -3252,7 +4034,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Nano-Fit_105309-xx02_1x02_P2.50mm_Vertical"
+		(property "Footprint" "UTSVT_Connectors:105313-2102"
 			(at 139.7 83.82 0)
 			(effects
 				(font
@@ -3295,8 +4077,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Polyfuse_Small")
+		(at 36.83 114.935 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f65bf5a2-b013-4a43-a111-be3a152ba049")
+		(property "Reference" "F40"
+			(at 34.29 116.205 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PTC Fuse"
+			(at 27.94 116.205 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "footprints:FUSC1810X100N"
+			(at 41.91 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 36.83 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
+			(at 36.83 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "PTSLR06038V075"
+			(at 36.83 114.935 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a34250e-61b5-4d44-9e09-3e8806fbf132")
+		)
+		(pin "2"
+			(uuid "c45a56f4-63e8-42c5-9eeb-73363931cec8")
+		)
+		(instances
+			(project "Battery-SegmentPCB-A"
+				(path "/4c734560-430e-4436-a585-cee76e7030f6"
+					(reference "F40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 53.34 114.935 0)
+		(at 45.72 114.935 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3305,7 +4166,7 @@
 		(fields_autoplaced yes)
 		(uuid "f9b7a95f-8b3b-4249-8707-e9fe4da3d084")
 		(property "Reference" "J8"
-			(at 56.515 113.6649 0)
+			(at 48.895 113.6649 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3314,7 +4175,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01"
-			(at 56.515 116.2049 0)
+			(at 48.895 116.2049 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3324,7 +4185,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopOnly"
-			(at 53.34 114.935 0)
+			(at 45.72 114.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3333,7 +4194,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 53.34 114.935 0)
+			(at 45.72 114.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3342,7 +4203,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 53.34 114.935 0)
+			(at 45.72 114.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3390,7 +4251,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Nano-Fit_105309-xx02_1x02_P2.50mm_Vertical"
+		(property "Footprint" "UTSVT_Connectors:105313-2102"
 			(at 139.7 91.44 0)
 			(effects
 				(font

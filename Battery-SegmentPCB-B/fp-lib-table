@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "footprints")(type "KiCad")(uri "${KIPRJMOD}/../footprints.pretty")(options "")(descr ""))
   (lib (name "UTSVT_Connectors")(type "KiCad")(uri "${KIPRJMOD}/../KiCAD-Bild/UTSVT_Connectors.pretty")(options "")(descr ""))
+  (lib (name "UTSVT_Logos")(type "KiCad")(uri "${KIPRJMOD}/../KiCAD-Bild/UTSVT_Logos.pretty")(options "")(descr ""))
 )
