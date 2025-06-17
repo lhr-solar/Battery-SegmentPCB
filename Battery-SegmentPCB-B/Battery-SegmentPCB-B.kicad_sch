@@ -1355,7 +1355,7 @@
 		)
 		(uuid "076c806b-ac98-48a9-996e-bde68f481a1d")
 	)
-	(label "VOLT1_7 +"
+	(label "VOLT_7 +"
 		(at 99.695 115.57 180)
 		(effects
 			(font
@@ -1375,7 +1375,7 @@
 		)
 		(uuid "1447a394-17ae-40f1-bb5a-ea7e69fa2e92")
 	)
-	(label "VOLT1_4 +"
+	(label "VOLT_4 +"
 		(at 149.86 73.025 270)
 		(effects
 			(font
@@ -1395,7 +1395,7 @@
 		)
 		(uuid "1ca8a8a8-a20a-4be3-8af4-a22f7a07ba30")
 	)
-	(label "VOLT1_6 +"
+	(label "VOLT_6 +"
 		(at 99.695 106.045 180)
 		(effects
 			(font
@@ -1405,7 +1405,7 @@
 		)
 		(uuid "1e8785d2-9a3d-4382-9b36-5ab84000f874")
 	)
-	(label "VOLT1_7 +"
+	(label "VOLT_7 +"
 		(at 157.48 73.025 270)
 		(effects
 			(font
@@ -1425,7 +1425,7 @@
 		)
 		(uuid "217e0f14-7d33-4751-a58b-d050e8b3a5cd")
 	)
-	(label "VOLT1_1 +"
+	(label "VOLT_1 +"
 		(at 62.23 95.25 180)
 		(effects
 			(font
@@ -1455,7 +1455,7 @@
 		)
 		(uuid "314682ef-8ad3-46ea-9c6f-90740ca9af84")
 	)
-	(label "VOLT1_8 +"
+	(label "VOLT_8 +"
 		(at 160.02 73.025 270)
 		(effects
 			(font
@@ -1535,7 +1535,7 @@
 		)
 		(uuid "50dd9b7c-28ef-4e89-b750-768c4407b763")
 	)
-	(label "VOLT1_2 +"
+	(label "VOLT_2 +"
 		(at 144.78 73.025 270)
 		(effects
 			(font
@@ -1545,7 +1545,7 @@
 		)
 		(uuid "537e4989-5f38-40b4-9a7d-035414624455")
 	)
-	(label "VOLT1_3 +"
+	(label "VOLT_3 +"
 		(at 147.32 73.025 270)
 		(effects
 			(font
@@ -1605,7 +1605,7 @@
 		)
 		(uuid "791becc8-2eb3-4d01-8ca3-8fb041e6dc8b")
 	)
-	(label "VOLT1_4 +"
+	(label "VOLT_4 +"
 		(at 60.325 122.555 180)
 		(effects
 			(font
@@ -1615,7 +1615,7 @@
 		)
 		(uuid "7c584e4e-7210-434b-84a2-15eacce731d8")
 	)
-	(label "VOLT1_3 +"
+	(label "VOLT_3 +"
 		(at 60.325 113.03 180)
 		(effects
 			(font
@@ -1645,7 +1645,7 @@
 		)
 		(uuid "88325f85-c752-4920-9a38-ed87821c54dd")
 	)
-	(label "VOLT1_1 +"
+	(label "VOLT_1 +"
 		(at 142.24 73.025 270)
 		(effects
 			(font
@@ -1725,7 +1725,7 @@
 		)
 		(uuid "adada159-0801-4159-8b42-67eb37cd8ea6")
 	)
-	(label "VOLT1_8 +"
+	(label "VOLT_8 +"
 		(at 99.695 125.095 180)
 		(effects
 			(font
@@ -1755,7 +1755,7 @@
 		)
 		(uuid "b17e3ca2-b651-46c0-a24b-02e2fdfd6e9c")
 	)
-	(label "VOLT1_5 +"
+	(label "VOLT_5 +"
 		(at 152.4 73.025 270)
 		(effects
 			(font
@@ -1775,7 +1775,7 @@
 		)
 		(uuid "c36523c0-abb8-4683-98df-9eedf72e894c")
 	)
-	(label "VOLT1_5 +"
+	(label "VOLT_5 +"
 		(at 99.695 96.52 180)
 		(effects
 			(font
@@ -1795,7 +1795,7 @@
 		)
 		(uuid "d1592f47-09d1-43d3-957e-632ad754d9b4")
 	)
-	(label "VOLT1_6 +"
+	(label "VOLT_6 +"
 		(at 154.94 73.025 270)
 		(effects
 			(font
@@ -1825,7 +1825,7 @@
 		)
 		(uuid "e9cf576b-0542-48c9-b4d6-aaf882e3b913")
 	)
-	(label "VOLT1_2 +"
+	(label "VOLT_2 +"
 		(at 60.96 103.505 180)
 		(effects
 			(font
